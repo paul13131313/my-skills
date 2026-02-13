@@ -13,6 +13,7 @@
 - **PWA** — 生成新聞のオフライン対応・インストール
 - **Three.js** — 3Dグラフィックス（SOUND COSMOS）
 - **WebGL2 / GLSL シェーダー** — 流体シミュレーション（FLUID NOISE）
+- **TensorFlow.js** — ブラウザ上ML推論・手認識（AIR SYNTH）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤
@@ -32,6 +33,7 @@
 ## 🟡 学習中 / 次に取り組む
 
 - **WGPU / WebGPU** — 次世代GPUグラフィックスAPI
+- **MediaPipe / TensorFlow.js 応用** — 顔認識、ポーズ推定、物体検出
 
 ## 📁 主要プロジェクト実績
 
@@ -47,6 +49,7 @@
 | ポートフォリオ | HTML/CSS/JS | 個人サイト |
 | SOUND COSMOS | Three.js, Web Audio API | 3Dオーディオビジュアライザー |
 | FLUID NOISE | WebGL2, GLSL, Web Audio API | Audio Reactive 流体シミュレーション |
+| AIR SYNTH | TensorFlow.js, Web Audio API | 手で空中演奏するAIシンセサイザー |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
