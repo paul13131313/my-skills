@@ -26,6 +26,7 @@
 - **WebSocket** — リアルタイム双方向通信（LIVE BOARD）
 - **HTML Drag and Drop API** — ネイティブドラッグ&ドロップ（KANBAN FLOW）
 - **View Transitions API** — ページ内アニメーション遷移（KANBAN FLOW）
+- **Web Animations API (WAAPI)** — プログラマティックアニメーション制御（MOTION LAB）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
@@ -72,6 +73,7 @@
 | PIXEL DODGE | Canvas 2D, Web Audio API | レトロ弾避けアーケードゲーム |
 | LIVE BOARD | WebSocket, Cloudflare Durable Objects, Canvas 2D | リアルタイム共有ホワイトボード |
 | KANBAN FLOW | Drag and Drop API, View Transitions API | ドラッグ&ドロップ カンバンボード |
+| MOTION LAB | Web Animations API | アニメーションAPI実験室 |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
