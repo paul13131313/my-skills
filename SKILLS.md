@@ -55,7 +55,7 @@
 | 音楽アプリ群 | Web Audio API | インタラクティブ楽器・リズムゲーム |
 | 素材タッチ体験 | HTML/CSS/JS | インタラクティブ素材表現 |
 | 体重記録Bot | LINE Messaging API | LINE連携の体重管理 |
-| ポートフォリオ | HTML/CSS/JS | 個人サイト |
+| STUDIO PAUL | WebGL2/GLSL, CSS Scroll-Driven Animations, Intersection Observer | ポートフォリオ（WebGLノイズ背景 + スクロール演出） |
 | SOUND COSMOS | Three.js, Web Audio API | 3Dオーディオビジュアライザー |
 | FLUID NOISE | WebGL2, GLSL, Web Audio API | Audio Reactive 流体シミュレーション |
 | AIR SYNTH | TensorFlow.js, Web Audio API | 手で空中演奏するAIシンセサイザー |
