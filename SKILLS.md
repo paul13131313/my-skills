@@ -15,6 +15,7 @@
 - **WebGL2 / GLSL シェーダー** — 流体シミュレーション（FLUID NOISE）
 - **TensorFlow.js** — ブラウザ上ML推論・手認識（AIR SYNTH）
 - **WebRTC (PeerJS)** — P2Pリアルタイム通信（SYNC PAD）
+- **D3.js** — データビジュアライゼーション・Force Simulation（SKILL GALAXY）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤
@@ -52,6 +53,7 @@
 | FLUID NOISE | WebGL2, GLSL, Web Audio API | Audio Reactive 流体シミュレーション |
 | AIR SYNTH | TensorFlow.js, Web Audio API | 手で空中演奏するAIシンセサイザー |
 | SYNC PAD | WebRTC, PeerJS, Web Audio API | P2Pリアルタイム共演ドラムマシン |
+| SKILL GALAXY | D3.js | インタラクティブ技術スキルマップ可視化 |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
