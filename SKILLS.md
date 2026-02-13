@@ -23,9 +23,11 @@
 - **CSS Scroll-Driven Animations** — スクロール連動アニメーション（SCROLL STAGE）
 - **Intersection Observer** — 要素可視性検出・遅延表示（SCROLL STAGE）
 - **Canvas 2D ゲーム開発** — ゲームループ・当たり判定・状態管理（PIXEL DODGE）
+- **WebSocket** — リアルタイム双方向通信（LIVE BOARD）
 
 ### バックエンド / インフラ
-- **Cloudflare Workers** — 生成新聞のAPI・配信基盤
+- **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
+- **Cloudflare Durable Objects** — ステートフルエッジコンピューティング（LIVE BOARD）
 - **Supabase** — DB・認証（MY RANKINGなど）
 - **Stripe** — 決済連携（生成新聞 月額サブスク）
 - **OAuth認証** — ソーシャルログイン実装
@@ -66,6 +68,7 @@
 | VOICE MEMO | Web Speech API, IndexedDB, Web Audio API | リアルタイム音声文字起こしメモ |
 | SCROLL STAGE | CSS Scroll-Driven Animations, Intersection Observer | スクロール演出ショーケース |
 | PIXEL DODGE | Canvas 2D, Web Audio API | レトロ弾避けアーケードゲーム |
+| LIVE BOARD | WebSocket, Cloudflare Durable Objects, Canvas 2D | リアルタイム共有ホワイトボード |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
