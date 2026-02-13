@@ -20,6 +20,8 @@
 - **Web Workers** — CPU並列処理（FRACTAL DIVE）
 - **Web Speech API** — ブラウザ音声認識（VOICE MEMO）
 - **IndexedDB** — ブラウザ内永続ストレージ（VOICE MEMO）
+- **CSS Scroll-Driven Animations** — スクロール連動アニメーション（SCROLL STAGE）
+- **Intersection Observer** — 要素可視性検出・遅延表示（SCROLL STAGE）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤
@@ -61,6 +63,7 @@
 | COLOR THIEF | Chrome Extension, Manifest V3, Canvas API | ページ配色抽出Chrome拡張 |
 | FRACTAL DIVE | Web Workers, Canvas API | 並列計算マンデルブロ集合エクスプローラー |
 | VOICE MEMO | Web Speech API, IndexedDB, Web Audio API | リアルタイム音声文字起こしメモ |
+| SCROLL STAGE | CSS Scroll-Driven Animations, Intersection Observer | スクロール演出ショーケース |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
