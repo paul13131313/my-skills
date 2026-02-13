@@ -24,6 +24,8 @@
 - **Intersection Observer** — 要素可視性検出・遅延表示（SCROLL STAGE）
 - **Canvas 2D ゲーム開発** — ゲームループ・当たり判定・状態管理（PIXEL DODGE）
 - **WebSocket** — リアルタイム双方向通信（LIVE BOARD）
+- **HTML Drag and Drop API** — ネイティブドラッグ&ドロップ（KANBAN FLOW）
+- **View Transitions API** — ページ内アニメーション遷移（KANBAN FLOW）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
@@ -69,6 +71,7 @@
 | SCROLL STAGE | CSS Scroll-Driven Animations, Intersection Observer | スクロール演出ショーケース |
 | PIXEL DODGE | Canvas 2D, Web Audio API | レトロ弾避けアーケードゲーム |
 | LIVE BOARD | WebSocket, Cloudflare Durable Objects, Canvas 2D | リアルタイム共有ホワイトボード |
+| KANBAN FLOW | Drag and Drop API, View Transitions API | ドラッグ&ドロップ カンバンボード |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
