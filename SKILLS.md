@@ -18,6 +18,8 @@
 - **D3.js** — データビジュアライゼーション・Force Simulation（SKILL GALAXY）
 - **Chrome Extension (Manifest V3)** — ブラウザ拡張開発（COLOR THIEF）
 - **Web Workers** — CPU並列処理（FRACTAL DIVE）
+- **Web Speech API** — ブラウザ音声認識（VOICE MEMO）
+- **IndexedDB** — ブラウザ内永続ストレージ（VOICE MEMO）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤
@@ -58,6 +60,7 @@
 | SKILL GALAXY | D3.js | インタラクティブ技術スキルマップ可視化 |
 | COLOR THIEF | Chrome Extension, Manifest V3, Canvas API | ページ配色抽出Chrome拡張 |
 | FRACTAL DIVE | Web Workers, Canvas API | 並列計算マンデルブロ集合エクスプローラー |
+| VOICE MEMO | Web Speech API, IndexedDB, Web Audio API | リアルタイム音声文字起こしメモ |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
