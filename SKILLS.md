@@ -11,6 +11,7 @@
 - **Tailwind CSS** — UIスタイリング
 - **Web Audio API** — 音楽アプリ、リズムゲーム、アンビエントサウンド
 - **PWA** — 生成新聞のオフライン対応・インストール
+- **Three.js** — 3Dグラフィックス（SOUND COSMOS）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤
@@ -29,7 +30,7 @@
 
 ## 🟡 学習中 / 次に取り組む
 
-- **Three.js** — 3Dグラフィックス（SOUND COSMOSで学習中）
+- **WebGL / GLSL シェーダー** — カスタムシェーダー・GPU描画
 
 ## 📁 主要プロジェクト実績
 
