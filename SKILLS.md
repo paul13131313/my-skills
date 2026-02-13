@@ -12,6 +12,7 @@
 - **Web Audio API** — 音楽アプリ、リズムゲーム、アンビエントサウンド
 - **PWA** — 生成新聞のオフライン対応・インストール
 - **Three.js** — 3Dグラフィックス（SOUND COSMOS）
+- **WebGL2 / GLSL シェーダー** — 流体シミュレーション（FLUID NOISE）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤
@@ -30,7 +31,7 @@
 
 ## 🟡 学習中 / 次に取り組む
 
-- **WebGL / GLSL シェーダー** — カスタムシェーダー・GPU描画
+- **WGPU / WebGPU** — 次世代GPUグラフィックスAPI
 
 ## 📁 主要プロジェクト実績
 
@@ -45,6 +46,7 @@
 | 体重記録Bot | LINE Messaging API | LINE連携の体重管理 |
 | ポートフォリオ | HTML/CSS/JS | 個人サイト |
 | SOUND COSMOS | Three.js, Web Audio API | 3Dオーディオビジュアライザー |
+| FLUID NOISE | WebGL2, GLSL, Web Audio API | Audio Reactive 流体シミュレーション |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
