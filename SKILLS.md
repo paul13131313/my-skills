@@ -16,6 +16,7 @@
 - **TensorFlow.js** — ブラウザ上ML推論・手認識（AIR SYNTH）
 - **WebRTC (PeerJS)** — P2Pリアルタイム通信（SYNC PAD）
 - **D3.js** — データビジュアライゼーション・Force Simulation（SKILL GALAXY）
+- **Chrome Extension (Manifest V3)** — ブラウザ拡張開発（COLOR THIEF）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤
@@ -54,6 +55,7 @@
 | AIR SYNTH | TensorFlow.js, Web Audio API | 手で空中演奏するAIシンセサイザー |
 | SYNC PAD | WebRTC, PeerJS, Web Audio API | P2Pリアルタイム共演ドラムマシン |
 | SKILL GALAXY | D3.js | インタラクティブ技術スキルマップ可視化 |
+| COLOR THIEF | Chrome Extension, Manifest V3, Canvas API | ページ配色抽出Chrome拡張 |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
