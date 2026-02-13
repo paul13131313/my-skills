@@ -29,7 +29,7 @@
 
 ## 🟡 学習中 / 次に取り組む
 
-- **Three.js** — 3Dグラフィックス（これから着手）
+- **Three.js** — 3Dグラフィックス（SOUND COSMOSで学習中）
 
 ## 📁 主要プロジェクト実績
 
@@ -43,6 +43,7 @@
 | 素材タッチ体験 | HTML/CSS/JS | インタラクティブ素材表現 |
 | 体重記録Bot | LINE Messaging API | LINE連携の体重管理 |
 | ポートフォリオ | HTML/CSS/JS | 個人サイト |
+| SOUND COSMOS | Three.js, Web Audio API | 3Dオーディオビジュアライザー |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
