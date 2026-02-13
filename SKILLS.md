@@ -27,6 +27,7 @@
 - **HTML Drag and Drop API** — ネイティブドラッグ&ドロップ（KANBAN FLOW）
 - **View Transitions API** — ページ内アニメーション遷移（KANBAN FLOW）
 - **Web Animations API (WAAPI)** — プログラマティックアニメーション制御（MOTION LAB）
+- **Web Components (Custom Elements v1 / Shadow DOM)** — 再利用可能UIコンポーネント設計（COMPONENT KIT）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
@@ -74,6 +75,7 @@
 | LIVE BOARD | WebSocket, Cloudflare Durable Objects, Canvas 2D | リアルタイム共有ホワイトボード |
 | KANBAN FLOW | Drag and Drop API, View Transitions API | ドラッグ&ドロップ カンバンボード |
 | MOTION LAB | Web Animations API | アニメーションAPI実験室 |
+| COMPONENT KIT | Web Components, Shadow DOM, Custom Elements | 再利用可能UIコンポーネントライブラリ |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
