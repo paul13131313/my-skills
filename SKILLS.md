@@ -29,6 +29,7 @@
 - **Web Animations API (WAAPI)** — プログラマティックアニメーション制御（MOTION LAB）
 - **Web Components (Custom Elements v1 / Shadow DOM)** — 再利用可能UIコンポーネント設計（COMPONENT KIT）
 - **MediaPipe Face Landmarker** — 顔468点ランドマーク検出・表情認識（FACE MIRROR）
+- **MediaPipe Image Segmenter** — リアルタイム人物セグメンテーション（LIQUID WALL）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
@@ -78,6 +79,7 @@
 | MOTION LAB | Web Animations API | アニメーションAPI実験室 |
 | COMPONENT KIT | Web Components, Shadow DOM, Custom Elements | 再利用可能UIコンポーネントライブラリ |
 | FACE MIRROR | MediaPipe Face Landmarker, Canvas 2D, Blendshapes | リアルタイム顔ランドマーク検出＆4エフェクト |
+| LIQUID WALL | MediaPipe Image Segmenter, Canvas 2D, 流体シミュレーション | WEB会議用インタラクティブ流体背景 |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
