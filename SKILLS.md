@@ -30,6 +30,7 @@
 - **Web Components (Custom Elements v1 / Shadow DOM)** — 再利用可能UIコンポーネント設計（COMPONENT KIT）
 - **MediaPipe Face Landmarker** — 顔468点ランドマーク検出・表情認識（FACE MIRROR）
 - **MediaPipe Image Segmenter** — リアルタイム人物セグメンテーション（LIQUID WALL）
+- **File System Access API** — ローカルファイル/フォルダの直接読み書き（FOLDER VISION）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
@@ -80,6 +81,7 @@
 | COMPONENT KIT | Web Components, Shadow DOM, Custom Elements | 再利用可能UIコンポーネントライブラリ |
 | FACE MIRROR | MediaPipe Face Landmarker, Canvas 2D, Blendshapes | リアルタイム顔ランドマーク検出＆4エフェクト |
 | LIQUID WALL | MediaPipe Image Segmenter, Canvas 2D, 流体シミュレーション | WEB会議用インタラクティブ流体背景 |
+| FOLDER VISION | File System Access API, D3.js (treemap/sunburst/pack) | フォルダ構造インタラクティブ可視化ツール |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
