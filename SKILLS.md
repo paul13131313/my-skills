@@ -31,6 +31,10 @@
 - **MediaPipe Face Landmarker** — 顔468点ランドマーク検出・表情認識（FACE MIRROR）
 - **MediaPipe Image Segmenter** — リアルタイム人物セグメンテーション（LIQUID WALL）
 - **File System Access API** — ローカルファイル/フォルダの直接読み書き（FOLDER VISION）
+- **MediaPipe Pose Landmarker** — 全身33点ポーズ推定・骨格検出（BODY PARTICLES）
+- **MediaPipe Object Detector** — 物体検出・バウンディングボックス（DARK SCANNER）
+- **WebGPU Compute Shader** — GPU並列計算パイプライン（PARTICLE STORM, BODY PARTICLES）
+- **WebGPU Render Pipeline** — GPUインスタンス描画・加算ブレンド（PARTICLE STORM, BODY PARTICLES）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
@@ -50,8 +54,7 @@
 
 ## 🟡 学習中 / 次に取り組む
 
-- **WGPU / WebGPU** — 次世代GPUグラフィックスAPI
-- **MediaPipe 応用（ポーズ推定・物体検出）** — 次に取り組む領域
+- **MediaPipe 応用（物体検出の高度化）** — より複雑な検出シナリオ
 
 ## 📁 主要プロジェクト実績
 
@@ -82,6 +85,9 @@
 | FACE MIRROR | MediaPipe Face Landmarker, Canvas 2D, Blendshapes | リアルタイム顔ランドマーク検出＆4エフェクト |
 | LIQUID WALL | MediaPipe Image Segmenter, Canvas 2D, 流体シミュレーション | WEB会議用インタラクティブ流体背景 |
 | FOLDER VISION | File System Access API, D3.js (treemap/sunburst/pack) | フォルダ構造インタラクティブ可視化ツール |
+| PARTICLE STORM | WebGPU Compute Shader, Canvas | WebGPU 100万パーティクルシミュレーション |
+| DARK SCANNER | MediaPipe Object Detector, Face Detector, Pose Landmarker, Canvas 2D | 軍事偵察分析風HUD画像ジェネレーター |
+| BODY PARTICLES | MediaPipe Pose Landmarker, WebGPU Compute Shader, WebGPU Render Pipeline | カメラ姿勢検出×WebGPU 20万パーティクルインタラクション |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
