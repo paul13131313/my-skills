@@ -88,6 +88,7 @@
 | PARTICLE STORM | WebGPU Compute Shader, Canvas | WebGPU 100万パーティクルシミュレーション |
 | DARK SCANNER | MediaPipe Object Detector, Face Detector, Pose Landmarker, Canvas 2D | 軍事偵察分析風HUD画像ジェネレーター |
 | BODY PARTICLES | MediaPipe Pose Landmarker, WebGPU Compute Shader, WebGPU Render Pipeline | カメラ姿勢検出×WebGPU 20万パーティクルインタラクション |
+| SHEET MOVIE | Chrome Extension, Manifest V3, Canvas 2D, Web Audio API | Google Sheetsセル動画モザイクオーバーレイ拡張 |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
