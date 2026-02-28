@@ -36,6 +36,7 @@
 - **WebGPU Compute Shader** — GPU並列計算パイプライン（PARTICLE STORM, BODY PARTICLES）
 - **WebGPU Render Pipeline** — GPUインスタンス描画・加算ブレンド（PARTICLE STORM, BODY PARTICLES）
 - **YouTube IFrame Player API** — YouTube動画のプログラム制御・埋め込み（PUNCH PUNCH PUNCH）
+- **oEmbed API** — 動画メタデータ取得・縦型動画フィルタリング（PUNCH PUNCH PUNCH）
 - **Vite + TypeScript** — 高速ビルドツール＋型安全な開発（Silent Call）
 - **CSS writing-mode: vertical-rl** — 日本語縦書きレイアウト（Silent Call）
 - **CSS Custom Properties（動的スタイリング）** — JavaScript連携のリアルタイムスタイル制御（Silent Call）
