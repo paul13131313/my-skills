@@ -46,6 +46,8 @@
 
 ### API連携
 - **Claude API** — AI生成コンテンツ（生成新聞の記事生成）
+- **RSS/Atomフィード解析** — Google News RSS、はてブhotentry、artscape・CINRA等の実データ注入（生成新聞）
+- **Open-Meteo API** — 天気実データ取得（生成新聞）
 - **LINE Messaging API** — Bot連携（体重記録システム）
 - **YouTube Data API v3** — 動画検索・埋め込み可否チェック（PUNCH PUNCH PUNCH）
 
@@ -63,7 +65,7 @@
 
 | プロジェクト | 技術スタック | 概要 |
 |---|---|---|
-| 生成新聞 | React, Cloudflare Workers, Claude API, Stripe, PWA | 月額300円 AI生成新聞サブスク |
+| 生成新聞 | React, Cloudflare Workers, Claude API, RSS/API実データ統合, Stripe, PWA | 月額300円 AI生成新聞サブスク（実データ注入型） |
 | MY RANKING | React, Next.js, Supabase | フルスタック個人ランキングシステム |
 | necoo | React | TikTok風猫動画ビューア |
 | 台湾レストランガイド | HTML/CSS/JS | 台湾グルメ情報サイト |
