@@ -40,6 +40,7 @@
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
 - **Cloudflare Durable Objects** — ステートフルエッジコンピューティング（LIVE BOARD）
+- **Upstash Redis** — サーバーレスKVストア（We TASK）
 - **Supabase** — DB・認証（MY RANKINGなど）
 - **Stripe** — 決済連携（生成新聞 月額サブスク）
 - **OAuth認証** — ソーシャルログイン実装
@@ -50,6 +51,7 @@
 - **Open-Meteo API** — 天気実データ取得（生成新聞）
 - **LINE Messaging API** — Bot連携（体重記録システム）
 - **YouTube Data API v3** — 動画検索・埋め込み可否チェック（PUNCH PUNCH PUNCH）
+- **Chatwork API** — タスク完了通知・THANKSカード連携（We TASK）
 
 ### ツール / デプロイ
 - **GitHub Pages** — 静的サイトホスティング
@@ -95,6 +97,7 @@
 | BODY PARTICLES | MediaPipe Pose Landmarker, WebGPU Compute Shader, WebGPU Render Pipeline | カメラ姿勢検出×WebGPU 20万パーティクルインタラクション |
 | SHEET MOVIE | Chrome Extension, Manifest V3, Canvas 2D, Web Audio API | Google Sheetsセル動画モザイクオーバーレイ拡張 |
 | PUNCH PUNCH PUNCH | React, YouTube IFrame Player API, Vercel Serverless Functions | パンチくんTikTok風無限動画フィード |
+| We TASK | Next.js, Upstash Redis, Chatwork API, Drag and Drop API | チーム雑務見える化ボード（THANKSカード・チュートリアル付き） |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
