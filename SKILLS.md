@@ -36,6 +36,11 @@
 - **WebGPU Compute Shader** — GPU並列計算パイプライン（PARTICLE STORM, BODY PARTICLES）
 - **WebGPU Render Pipeline** — GPUインスタンス描画・加算ブレンド（PARTICLE STORM, BODY PARTICLES）
 - **YouTube IFrame Player API** — YouTube動画のプログラム制御・埋め込み（PUNCH PUNCH PUNCH）
+- **Vite + TypeScript** — 高速ビルドツール＋型安全な開発（Silent Call）
+- **CSS writing-mode: vertical-rl** — 日本語縦書きレイアウト（Silent Call）
+- **CSS Custom Properties（動的スタイリング）** — JavaScript連携のリアルタイムスタイル制御（Silent Call）
+- **navigator.vibrate() API** — デバイス振動フィードバック（Silent Call）
+- **Google Fonts (Noto Serif JP / Noto Sans JP)** — 日本語Webフォント活用（Silent Call）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
@@ -98,6 +103,7 @@
 | SHEET MOVIE | Chrome Extension, Manifest V3, Canvas 2D, Web Audio API | Google Sheetsセル動画モザイクオーバーレイ拡張 |
 | PUNCH PUNCH PUNCH | React, YouTube IFrame Player API, Vercel Serverless Functions | パンチくんTikTok風無限動画フィード |
 | We TASK | Next.js, Upstash Redis, Chatwork API, Drag and Drop API | チーム雑務見える化ボード（THANKSカード・チュートリアル付き） |
+| Silent Call | Vite, React, TypeScript, CSS writing-mode, navigator.vibrate() | 飲食店で声を出さずに店員を呼べるサイレントコールアプリ |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
