@@ -35,6 +35,7 @@
 - **MediaPipe Object Detector** — 物体検出・バウンディングボックス（DARK SCANNER）
 - **WebGPU Compute Shader** — GPU並列計算パイプライン（PARTICLE STORM, BODY PARTICLES）
 - **WebGPU Render Pipeline** — GPUインスタンス描画・加算ブレンド（PARTICLE STORM, BODY PARTICLES）
+- **YouTube IFrame Player API** — YouTube動画のプログラム制御・埋め込み（PUNCH PUNCH PUNCH）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
@@ -46,9 +47,11 @@
 ### API連携
 - **Claude API** — AI生成コンテンツ（生成新聞の記事生成）
 - **LINE Messaging API** — Bot連携（体重記録システム）
+- **YouTube Data API v3** — 動画検索・埋め込み可否チェック（PUNCH PUNCH PUNCH）
 
 ### ツール / デプロイ
 - **GitHub Pages** — 静的サイトホスティング
+- **Vercel** — サーバーレス関数 + フロントエンドホスティング（PUNCH PUNCH PUNCH）
 - **Claude Code (CC)** — AI支援開発のメインツール
 - **Git / GitHub** — バージョン管理・リポジトリ運用
 
@@ -89,6 +92,7 @@
 | DARK SCANNER | MediaPipe Object Detector, Face Detector, Pose Landmarker, Canvas 2D | 軍事偵察分析風HUD画像ジェネレーター |
 | BODY PARTICLES | MediaPipe Pose Landmarker, WebGPU Compute Shader, WebGPU Render Pipeline | カメラ姿勢検出×WebGPU 20万パーティクルインタラクション |
 | SHEET MOVIE | Chrome Extension, Manifest V3, Canvas 2D, Web Audio API | Google Sheetsセル動画モザイクオーバーレイ拡張 |
+| PUNCH PUNCH PUNCH | React, YouTube IFrame Player API, Vercel Serverless Functions | パンチくんTikTok風無限動画フィード |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
