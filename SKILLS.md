@@ -45,6 +45,9 @@
 - **html2canvas** — DOM→Canvas画像化・SNSシェア用画像保存（KANJI ME）
 - **Web Share API** — ファイル付きネイティブ共有・画像+テキスト+URLのSNSシェア（KANJI ME）
 - **PWA マニフェスト / apple-touch-icon** — ホーム画面アイコン対応（KANJI ME）
+- **next/og (ImageResponse)** — Edge Runtimeで動的OGP画像生成・フォントサブセッティング（KANJI ME）
+- **ISR (Incremental Static Regeneration)** — generateStaticParams＋revalidateで事前生成＋定期再検証（KANJI ME）
+- **Vercel Analytics** — ページビュー・カスタムイベント計測（KANJI ME）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
@@ -66,7 +69,7 @@
 ### ツール / デプロイ
 - **GitHub Pages** — 静的サイトホスティング（カスタムドメイン対応）
 - **Cloudflare Registrar** — ドメイン取得・DNS管理（seiseishinbun.com）
-- **Vercel** — サーバーレス関数 + フロントエンドホスティング（PUNCH PUNCH PUNCH）
+- **Vercel** — サーバーレス関数 + フロントエンドホスティング + KVストア（PUNCH PUNCH PUNCH, KANJI ME）
 - **Claude Code (CC)** — AI支援開発のメインツール
 - **Git / GitHub** — バージョン管理・リポジトリ運用
 
@@ -110,7 +113,7 @@
 | PUNCH PUNCH PUNCH | React, YouTube IFrame Player API, Vercel Serverless Functions | パンチくんTikTok風無限動画フィード |
 | We TASK | Next.js, Upstash Redis, Chatwork API, Drag and Drop API | チーム雑務見える化ボード（THANKSカード・チュートリアル付き） |
 | Silent Call | Vite, React, TypeScript, CSS writing-mode, navigator.vibrate() | 飲食店で声を出さずに店員を呼べるサイレントコールアプリ |
-| KANJI ME | Next.js, TypeScript, Tailwind CSS, Claude API (Haiku), html2canvas, Web Share API, Vercel KV, Stripe | 英語名をAI漢字変換。SNSシェア・画像保存・PWA対応のフリーミアムアプリ |
+| KANJI ME | Next.js, TypeScript, Tailwind CSS, Claude API (Haiku), html2canvas, Web Share API, Vercel KV, Stripe, next/og, ISR, Vercel Analytics | 英語名をAI漢字変換。名前別URL＋動的OGP・SEO事前生成100名・Analyticsによるバイラルループ計測対応のフリーミアムアプリ |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
