@@ -43,6 +43,8 @@
 - **navigator.vibrate() API** — デバイス振動フィードバック（Silent Call）
 - **Google Fonts (Noto Serif JP / Noto Sans JP)** — 日本語Webフォント活用（Silent Call）
 - **html2canvas** — DOM→Canvas画像化・SNSシェア用画像保存（KANJI ME）
+- **Web Share API** — ファイル付きネイティブ共有・画像+テキスト+URLのSNSシェア（KANJI ME）
+- **PWA マニフェスト / apple-touch-icon** — ホーム画面アイコン対応（KANJI ME）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
@@ -106,7 +108,7 @@
 | PUNCH PUNCH PUNCH | React, YouTube IFrame Player API, Vercel Serverless Functions | パンチくんTikTok風無限動画フィード |
 | We TASK | Next.js, Upstash Redis, Chatwork API, Drag and Drop API | チーム雑務見える化ボード（THANKSカード・チュートリアル付き） |
 | Silent Call | Vite, React, TypeScript, CSS writing-mode, navigator.vibrate() | 飲食店で声を出さずに店員を呼べるサイレントコールアプリ |
-| KANJI ME | Next.js, TypeScript, Tailwind CSS, Claude API (Haiku), html2canvas | 英語名をAI漢字変換する和紙カード表示アプリ |
+| KANJI ME | Next.js, TypeScript, Tailwind CSS, Claude API (Haiku), html2canvas, Web Share API, Vercel KV, Stripe | 英語名をAI漢字変換。SNSシェア・画像保存・PWA対応のフリーミアムアプリ |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
