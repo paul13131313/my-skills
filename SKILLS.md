@@ -45,6 +45,10 @@
 - **html2canvas** — DOM→Canvas画像化・SNSシェア用画像保存（KANJI ME）
 - **Web Share API** — ファイル付きネイティブ共有・画像+テキスト+URLのSNSシェア（KANJI ME）
 - **PWA マニフェスト / apple-touch-icon** — ホーム画面アイコン対応（KANJI ME）
+- **CSS position: absolute によるクレジット注釈オーバーレイ** — AI生成画像へのクレジット表記（台灣生成新聞）
+- **object-fit: cover による画像トリミング** — 黒帯除去・アスペクト比調整（台灣生成新聞）
+- **Canvas APIベースのピクセル分析** — 画像内の黒帯検出・自動トリミング判定（台灣生成新聞）
+- **大規模HTML（base64画像埋め込み）の効率的編集** — 単一ファイル内の巨大base64画像管理（台灣生成新聞）
 - **next/og (ImageResponse)** — Edge Runtimeで動的OGP画像生成・フォントサブセッティング（KANJI ME）
 - **ISR (Incremental Static Regeneration)** — generateStaticParams＋revalidateで事前生成＋定期再検証（KANJI ME）
 - **Vercel Analytics** — ページビュー・カスタムイベント計測（KANJI ME）
@@ -114,6 +118,7 @@
 | We TASK | Next.js, Upstash Redis, Chatwork API, Drag and Drop API | チーム雑務見える化ボード（THANKSカード・チュートリアル付き） |
 | Silent Call | Vite, React, TypeScript, CSS writing-mode, navigator.vibrate() | 飲食店で声を出さずに店員を呼べるサイレントコールアプリ |
 | KANJI ME | Next.js, TypeScript, Tailwind CSS, Claude API (Haiku), html2canvas, Web Share API, Vercel KV, Stripe, next/og, ISR, Vercel Analytics | 英語名をAI漢字変換。名前別URL＋動的OGP・SEO事前生成100名・Analyticsによるバイラルループ計測対応のフリーミアムアプリ |
+| 台灣生成新聞 | HTML/CSS（単一ファイル）, AI画像生成, Canvas API, GitHub Pages | 台湾ニュースをAI翻訳・要約して毎日届ける新聞風メディア |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
