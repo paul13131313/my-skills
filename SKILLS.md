@@ -61,9 +61,11 @@
 - **LINE Messaging API** — Bot連携（体重記録システム）
 - **YouTube Data API v3** — 動画検索・埋め込み可否チェック（PUNCH PUNCH PUNCH）
 - **Chatwork API** — タスク完了通知・THANKSカード連携（We TASK）
+- **Resend API** — トランザクションメール配信・独自ドメイン認証（生成新聞）
 
 ### ツール / デプロイ
-- **GitHub Pages** — 静的サイトホスティング
+- **GitHub Pages** — 静的サイトホスティング（カスタムドメイン対応）
+- **Cloudflare Registrar** — ドメイン取得・DNS管理（seiseishinbun.com）
 - **Vercel** — サーバーレス関数 + フロントエンドホスティング（PUNCH PUNCH PUNCH）
 - **Claude Code (CC)** — AI支援開発のメインツール
 - **Git / GitHub** — バージョン管理・リポジトリ運用
@@ -76,7 +78,7 @@
 
 | プロジェクト | 技術スタック | 概要 |
 |---|---|---|
-| 生成新聞 | React, Cloudflare Workers, Claude API, RSS/API実データ統合, Stripe, PWA | 月額300円 AI生成新聞サブスク（実データ注入型） |
+| 生成新聞 | React, Cloudflare Workers, Claude API, RSS/API実データ統合, Stripe, PWA, Resend | 月額300円 AI生成新聞サブスク（独自ドメイン seiseishinbun.com） |
 | MY RANKING | React, Next.js, Supabase | フルスタック個人ランキングシステム |
 | necoo | React | TikTok風猫動画ビューア |
 | 台湾レストランガイド | HTML/CSS/JS | 台湾グルメ情報サイト |
