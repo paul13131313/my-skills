@@ -35,7 +35,8 @@
 - **MediaPipe Object Detector** — 物体検出・バウンディングボックス（DARK SCANNER）
 - **WebGPU Compute Shader** — GPU並列計算パイプライン（PARTICLE STORM, BODY PARTICLES）
 - **WebGPU Render Pipeline** — GPUインスタンス描画・加算ブレンド（PARTICLE STORM, BODY PARTICLES）
-- **YouTube IFrame Player API** — YouTube動画のプログラム制御・埋め込み（PUNCH PUNCH PUNCH）
+- **YouTube IFrame Player API** — YouTube動画のプログラム制御・埋め込み（PUNCH PUNCH PUNCH, WORLD LIVE CAMERAS）
+- **Intl.DateTimeFormat** — 各国タイムゾーンの現地時刻フォーマット表示（WORLD LIVE CAMERAS）
 - **oEmbed API** — 動画メタデータ取得・縦型動画フィルタリング（PUNCH PUNCH PUNCH）
 - **Vite + TypeScript** — 高速ビルドツール＋型安全な開発（Silent Call）
 - **CSS writing-mode: vertical-rl** — 日本語縦書きレイアウト（Silent Call）
@@ -120,6 +121,7 @@
 | Silent Call | Vite, React, TypeScript, CSS writing-mode, navigator.vibrate() | 飲食店で声を出さずに店員を呼べるサイレントコールアプリ |
 | KANJI ME | Next.js, TypeScript, Tailwind CSS, Claude API (Haiku), html2canvas, Web Share API, Vercel KV, Stripe, next/og, ISR, Vercel Analytics | 英語名をAI漢字変換。名前別URL＋動的OGP・SEO事前生成100名・Analyticsによるバイラルループ計測対応のフリーミアムアプリ |
 | 台灣生成新聞 | HTML/CSS（単一ファイル）, AI画像生成, Canvas API, GitHub Pages | 台湾ニュースをAI翻訳・要約して毎日届ける新聞風メディア |
+| WORLD LIVE CAMERAS | React, TypeScript, Tailwind CSS, Vite, YouTube IFrame API, Intl.DateTimeFormat | 世界中のYouTubeライブカメラを監視ルームのように一覧表示するサイト |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
