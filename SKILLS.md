@@ -65,7 +65,7 @@
 - **OAuth認証** — ソーシャルログイン実装
 
 ### API連携
-- **Claude API** — AI生成コンテンツ（生成新聞の記事生成）
+- **Claude API** — AI生成コンテンツ（生成新聞の記事生成）、Anthropic SDK経由のリアルタイムAI推定（MONEY TRAIL）
 - **RSS/Atomフィード解析** — Google News RSS、はてブhotentry、artscape・CINRA等の実データ注入（生成新聞）
 - **Open-Meteo API** — 天気実データ取得・複数都市一括天気予報ティッカー（生成新聞）
 - **Stooq CSV API** — 株価・為替データ取得（生成新聞）
@@ -127,7 +127,7 @@
 | 台灣生成新聞 | Next.js, TypeScript, Claude API (Haiku), Upstash Redis, Resend API, Together AI, Vercel Cron Jobs, RSS解析 | 台湾8メディアのニュースをAI翻訳・要約。為替・株価・天気リアルタイム表示、日本企業台湾進出事例、メール配信対応 |
 | WORLD LIVE CAMERAS | React, TypeScript, Tailwind CSS, Vite, YouTube IFrame API, Intl.DateTimeFormat | 世界中のYouTubeライブカメラを監視ルームのように一覧表示するサイト |
 | INFINITE WINDOW | HTML, CSS, Vanilla JS | Windows 98 GDIバグ再現シミュレーター。ドラッグ残像が積み重なり画面が壊れていく |
-| MONEY TRAIL | Next.js, TypeScript, Tailwind CSS, D3.js (d3-sankey) | 商品価格のサプライチェーンお金の流れをSankeyダイアグラムで可視化 |
+| MONEY TRAIL | Next.js, TypeScript, Tailwind CSS, D3.js (d3-sankey), Anthropic SDK (Claude Haiku API), Next.js API Routes | 商品価格のお金の流れをSankeyダイアグラムで可視化。AI推定機能で任意の商品名+価格からコスト内訳をリアルタイム生成 |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
