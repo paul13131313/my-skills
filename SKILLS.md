@@ -15,7 +15,7 @@
 - **WebGL2 / GLSL シェーダー** — 流体シミュレーション（FLUID NOISE）
 - **TensorFlow.js** — ブラウザ上ML推論・手認識（AIR SYNTH）
 - **WebRTC (PeerJS)** — P2Pリアルタイム通信（SYNC PAD）
-- **D3.js** — データビジュアライゼーション・Force Simulation（SKILL GALAXY）
+- **D3.js** — データビジュアライゼーション・Force Simulation（SKILL GALAXY）、Sankeyダイアグラム（MONEY TRAIL）
 - **Chrome Extension (Manifest V3)** — ブラウザ拡張開発（COLOR THIEF）
 - **Web Workers** — CPU並列処理（FRACTAL DIVE）
 - **Web Speech API** — ブラウザ音声認識（VOICE MEMO）
@@ -127,6 +127,7 @@
 | 台灣生成新聞 | Next.js, TypeScript, Claude API (Haiku), Upstash Redis, Resend API, Together AI, Vercel Cron Jobs, RSS解析 | 台湾8メディアのニュースをAI翻訳・要約。為替・株価・天気リアルタイム表示、日本企業台湾進出事例、メール配信対応 |
 | WORLD LIVE CAMERAS | React, TypeScript, Tailwind CSS, Vite, YouTube IFrame API, Intl.DateTimeFormat | 世界中のYouTubeライブカメラを監視ルームのように一覧表示するサイト |
 | INFINITE WINDOW | HTML, CSS, Vanilla JS | Windows 98 GDIバグ再現シミュレーター。ドラッグ残像が積み重なり画面が壊れていく |
+| MONEY TRAIL | Next.js, TypeScript, Tailwind CSS, D3.js (d3-sankey) | 商品価格のサプライチェーンお金の流れをSankeyダイアグラムで可視化 |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
