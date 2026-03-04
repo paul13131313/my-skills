@@ -126,6 +126,7 @@
 | KANJI ME | Next.js, TypeScript, Tailwind CSS, Claude API (Haiku), html2canvas, Web Share API, Vercel KV, Stripe, next/og, ISR, Vercel Analytics | 英語名をAI漢字変換。名前別URL＋動的OGP・SEO事前生成100名・Analyticsによるバイラルループ計測対応のフリーミアムアプリ |
 | 台灣生成新聞 | Next.js, TypeScript, Claude API (Haiku), Upstash Redis, Resend API, Together AI, Vercel Cron Jobs, RSS解析 | 台湾8メディアのニュースをAI翻訳・要約。為替・株価・天気リアルタイム表示、日本企業台湾進出事例、メール配信対応 |
 | WORLD LIVE CAMERAS | React, TypeScript, Tailwind CSS, Vite, YouTube IFrame API, Intl.DateTimeFormat | 世界中のYouTubeライブカメラを監視ルームのように一覧表示するサイト |
+| INFINITE WINDOW | HTML, CSS, Vanilla JS | Windows 98 GDIバグ再現シミュレーター。ドラッグ残像が積み重なり画面が壊れていく |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
