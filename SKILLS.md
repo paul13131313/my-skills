@@ -72,12 +72,14 @@
 - **LINE Messaging API** — Bot連携（体重記録システム）
 - **YouTube Data API v3** — 動画検索・埋め込み可否チェック（PUNCH PUNCH PUNCH）
 - **Chatwork API** — タスク完了通知・THANKSカード連携（We TASK）
-- **Resend API** — トランザクションメール配信・独自ドメイン認証（生成新聞）
+- **Resend API** — トランザクションメール配信・独自ドメイン認証（生成新聞、台灣生成新聞）
+- **Vercel Cron Jobs** — 定時自動実行・CRON_SECRET認証（台灣生成新聞）
+- **Together AI API** — 画像生成API（台灣生成新聞ヒーロー画像）
 
 ### ツール / デプロイ
 - **GitHub Pages** — 静的サイトホスティング（カスタムドメイン対応）
 - **Cloudflare Registrar** — ドメイン取得・DNS管理（seiseishinbun.com）
-- **Vercel** — サーバーレス関数 + フロントエンドホスティング + KVストア（PUNCH PUNCH PUNCH, KANJI ME）
+- **Vercel** — サーバーレス関数 + フロントエンドホスティング + KVストア（PUNCH PUNCH PUNCH, KANJI ME, 台灣生成新聞）
 - **Claude Code (CC)** — AI支援開発のメインツール
 - **Git / GitHub** — バージョン管理・リポジトリ運用
 
@@ -122,7 +124,7 @@
 | We TASK | Next.js, Upstash Redis, Chatwork API, Drag and Drop API | チーム雑務見える化ボード（THANKSカード・チュートリアル付き） |
 | Silent Call | Vite, React, TypeScript, CSS writing-mode, navigator.vibrate() | 飲食店で声を出さずに店員を呼べるサイレントコールアプリ |
 | KANJI ME | Next.js, TypeScript, Tailwind CSS, Claude API (Haiku), html2canvas, Web Share API, Vercel KV, Stripe, next/og, ISR, Vercel Analytics | 英語名をAI漢字変換。名前別URL＋動的OGP・SEO事前生成100名・Analyticsによるバイラルループ計測対応のフリーミアムアプリ |
-| 台灣生成新聞 | HTML/CSS（単一ファイル）, AI画像生成, Canvas API, GitHub Pages | 台湾ニュースをAI要約。出典リンク付き全記事・日本企業台湾進出事例・失敗談コラム・ビジネストレンド情報を網羅。商用版/個人版の2バージョン運用 |
+| 台灣生成新聞 | Next.js, TypeScript, Claude API (Haiku), Upstash Redis, Resend API, Together AI, Vercel Cron Jobs, RSS解析 | 台湾8メディアのニュースをAI翻訳・要約。為替・株価・天気リアルタイム表示、日本企業台湾進出事例、メール配信対応 |
 | WORLD LIVE CAMERAS | React, TypeScript, Tailwind CSS, Vite, YouTube IFrame API, Intl.DateTimeFormat | 世界中のYouTubeライブカメラを監視ルームのように一覧表示するサイト |
 
 ## 📝 運用ルール
