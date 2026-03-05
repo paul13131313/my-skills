@@ -59,22 +59,24 @@
 - **Vercel Analytics** — ページビュー・カスタムイベント計測（KANJI ME）
 
 ### バックエンド / インフラ
-- **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー
+- **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー、業界紙つくーるのSaaSバックエンド
 - **Cloudflare Durable Objects** — ステートフルエッジコンピューティング（LIVE BOARD）
 - **Upstash Redis** — サーバーレスKVストア（We TASK）
 - **Supabase** — DB・認証（MY RANKINGなど）
+- **Cloudflare Workers KV** — エッジKVストア・トークンインデックス管理（業界紙つくーる）
+- **Stripe Checkout + Webhooks** — サブスクリプション決済・checkout.session.completed/invoice.payment_succeededイベント処理（業界紙つくーる）
 - **Stripe** — 決済連携（生成新聞 月額サブスク）
 - **OAuth認証** — ソーシャルログイン実装
 
 ### API連携
-- **Claude API** — AI生成コンテンツ（生成新聞の記事生成）、Anthropic SDK経由のリアルタイムAI推定（MONEY TRAIL）
+- **Claude API** — AI生成コンテンツ（生成新聞の記事生成）、Anthropic SDK経由のリアルタイムAI推定（MONEY TRAIL）、web_searchツール付き業界紙自動生成（業界紙つくーる）
 - **RSS/Atomフィード解析** — Google News RSS、はてブhotentry、artscape・CINRA等の実データ注入（生成新聞）
 - **Open-Meteo API** — 天気実データ取得・複数都市一括天気予報ティッカー（生成新聞）、花粉データ取得・Air Quality API連携（KAFUN PARAPARA）
 - **Stooq CSV API** — 株価・為替データ取得（生成新聞）
 - **LINE Messaging API** — Bot連携（体重記録システム）
 - **YouTube Data API v3** — 動画検索・埋め込み可否チェック（PUNCH PUNCH PUNCH）
 - **Chatwork API** — タスク完了通知・THANKSカード連携（We TASK）
-- **Resend API** — トランザクションメール配信・独自ドメイン認証（生成新聞、台灣生成新聞）
+- **Resend API** — トランザクションメール配信・独自ドメイン認証（生成新聞、台灣生成新聞）、Broadcasts/Audiences APIで一斉配信（業界紙つくーる）
 - **Vercel Cron Jobs** — 定時自動実行・CRON_SECRET認証（台灣生成新聞）
 - **Together AI API** — 画像生成API（台灣生成新聞ヒーロー画像）
 
@@ -139,4 +141,4 @@
 2. 興味がある技術は「学習中」に追加
 3. プロジェクト完了時にテーブルに追記
 4. チャット開始時に「SKILLS.mdを読んで」と伝える
-| 業界紙つくーる | HTML, CSS, JavaScript, Formspree, GitHub Pages | AI生成業界紙・メルマガ制作配信代行サービスLP。5業種サンプル（不動産・士業・製造業・海外進出・日常版）、3料金プラン、事例紹介、FAQ、免責事項付き |
+| 業界紙つくーる | HTML/CSS/JS, Cloudflare Workers, Workers KV, Stripe Checkout/Webhooks, Claude API (web_search), Resend Broadcasts API, GitHub Pages | AI生成業界紙・メルマガSaaS。LP（5業種サンプル・3料金プラン）+ Stripe決済→ヒアリング→Claude API自動生成→承認→Resend一斉配信の完全自動化パイプライン |
