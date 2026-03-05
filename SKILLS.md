@@ -23,6 +23,7 @@
 - **CSS Scroll-Driven Animations** — スクロール連動アニメーション（SCROLL STAGE）
 - **Intersection Observer** — 要素可視性検出・遅延表示（SCROLL STAGE）
 - **Canvas 2D ゲーム開発** — ゲームループ・当たり判定・状態管理（PIXEL DODGE）
+- **Canvas 2D 画像解析・物理シミュレーション** — ピクセルベースエッジ検出によるUI要素自動分割、自前物理エンジン（重力・空気抵抗・床バウンス）（画面崩壊）
 - **WebSocket** — リアルタイム双方向通信（LIVE BOARD）
 - **HTML Drag and Drop API** — ネイティブドラッグ&ドロップ（KANBAN FLOW）
 - **View Transitions API** — ページ内アニメーション遷移（KANBAN FLOW）
