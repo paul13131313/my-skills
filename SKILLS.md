@@ -129,6 +129,7 @@
 | INFINITE WINDOW | HTML, CSS, Vanilla JS | Windows 98 GDIバグ再現シミュレーター。ドラッグ残像が積み重なり画面が壊れていく |
 | MONEY TRAIL | Next.js, TypeScript, Tailwind CSS, D3.js (d3-sankey), Anthropic SDK (Claude Haiku API), Next.js API Routes | 商品価格のお金の流れをSankeyダイアグラムで可視化。AI推定機能で任意の商品名+価格からコスト内訳をリアルタイム生成 |
 | KAFUN PARAPARA | Next.js 15, TypeScript, Tailwind CSS v4, Canvas 2D パーティクル, Open-Meteo API (気温・風速・季節ベース花粉推定), mix-blend-mode: multiply | リアルタイム花粉データ連動トラッカー。ギャル3Dキャラアニメーション×花粉レベル5段階×Canvas花粉パーティクル。スプラッシュ画面（モバイル動画自動再生対応）・隠しデバッグコマンド・推定データ注釈ツールチップ付き |
+| テープ貼るやつ (tepla-studio) | React, TypeScript, Vite, Canvas API, Vercel | ブラウザで作るラベルシミュレーター。テープの色（白/黒、黄/黒、赤/白、青/白、緑/白、桃/黒、黒/白、透明/黒）・幅（6mm〜24mm）・書体（明朝・ゴシック）・字幅・向き・内枠を選択し、ボード上に自由に配置。ラベルのドラッグ移動、回転、インライン編集、個別PNG書き出し、ボード全体のPNG書き出しに対応 |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
