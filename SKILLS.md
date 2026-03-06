@@ -156,3 +156,4 @@
 | 業界紙つくーる | HTML/CSS/JS, Cloudflare Workers, Workers KV, Stripe Checkout/Webhooks, Claude API (web_search), Resend Broadcasts API, GitHub Pages | AI生成業界紙・メルマガSaaS。LP（5業種サンプル・3料金プラン）+ Stripe決済→ヒアリング→Claude API自動生成→承認→Resend一斉配信の完全自動化パイプライン |
 | 散歩記録 | Next.js, TypeScript, Leaflet.js, OpenStreetMap, Vercel KV, Web Geolocation API, Canvas API, WakeLock | GPS連動の散歩記録アプリ。リアルタイムGPS軌跡・距離/時間計測・全ルート重ねマップ・Canvas線画アート出力 |
 | 散歩記録 Expo版 | React Native, Expo SDK 54, TypeScript, expo-location, react-native-maps, react-native-svg, AsyncStorage, EAS Build | iOSネイティブ散歩記録アプリ。GPS記録・Apple Maps連携・SVGルートアート・地図背景トグル・カメラロール保存 |
+| PROTOTIPER | Next.js (App Router), TypeScript, Tailwind CSS, Claude API (Sonnet), Vercel KV (Upstash Redis), Resend, Vercel Cron | AIが毎日1業種のWebサイトプロトタイプを自動生成する見本市サイト。Unsplash写真入りキービジュアル、18種類のデザインスタイルカタログからスタイル適用、Vercel Cron Jobで毎朝自動生成 |
