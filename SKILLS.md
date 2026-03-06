@@ -57,11 +57,15 @@
 - **next/og (ImageResponse)** — Edge Runtimeで動的OGP画像生成・フォントサブセッティング（KANJI ME）
 - **ISR (Incremental Static Regeneration)** — generateStaticParams＋revalidateで事前生成＋定期再検証（KANJI ME）
 - **Vercel Analytics** — ページビュー・カスタムイベント計測（KANJI ME）
+- **Leaflet.js** — OpenStreetMap連携・ダークテーマ地図・ルート描画（散歩記録）
+- **Web Geolocation API** — watchPositionによるGPS記録・WakeLock連携（散歩記録）
+- **Canvas API（座標正規化・アート描画・PNG出力）** — GPS軌跡データの正規化→線画アート生成・画像ダウンロード（散歩記録）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー、業界紙つくーるのSaaSバックエンド
 - **Cloudflare Durable Objects** — ステートフルエッジコンピューティング（LIVE BOARD）
 - **Upstash Redis** — サーバーレスKVストア（We TASK）
+- **Vercel KV (Upstash Redis)** — Vercel統合KVストア・散歩ルートデータ永続化（散歩記録）
 - **Supabase** — DB・認証（MY RANKINGなど）
 - **Cloudflare Workers KV** — エッジKVストア・トークンインデックス管理（業界紙つくーる）
 - **Stripe Checkout + Webhooks** — サブスクリプション決済・checkout.session.completed/invoice.payment_succeededイベント処理（業界紙つくーる）
@@ -142,3 +146,4 @@
 3. プロジェクト完了時にテーブルに追記
 4. チャット開始時に「SKILLS.mdを読んで」と伝える
 | 業界紙つくーる | HTML/CSS/JS, Cloudflare Workers, Workers KV, Stripe Checkout/Webhooks, Claude API (web_search), Resend Broadcasts API, GitHub Pages | AI生成業界紙・メルマガSaaS。LP（5業種サンプル・3料金プラン）+ Stripe決済→ヒアリング→Claude API自動生成→承認→Resend一斉配信の完全自動化パイプライン |
+| 散歩記録 | Next.js, TypeScript, Leaflet.js, OpenStreetMap, Vercel KV, Web Geolocation API, Canvas API, WakeLock | GPS連動の散歩記録アプリ。リアルタイムGPS軌跡・距離/時間計測・全ルート重ねマップ・Canvas線画アート出力 |
