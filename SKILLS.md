@@ -157,3 +157,4 @@
 | 散歩記録 | Next.js, TypeScript, Leaflet.js, OpenStreetMap, Vercel KV, Web Geolocation API, Canvas API, WakeLock | GPS連動の散歩記録アプリ。リアルタイムGPS軌跡・距離/時間計測・全ルート重ねマップ・Canvas線画アート出力 |
 | 散歩記録 Expo版 | React Native, Expo SDK 54, TypeScript, expo-location, react-native-maps, react-native-svg, AsyncStorage, EAS Build | iOSネイティブ散歩記録アプリ。GPS記録・Apple Maps連携・SVGルートアート・地図背景トグル・カメラロール保存 |
 | PROTOTIPER | Next.js (App Router), TypeScript, Tailwind CSS, Claude API (Sonnet), Vercel KV (Upstash Redis), Resend, Vercel Cron | AIが毎日1業種のWebサイトプロトタイプを自動生成する見本市サイト。Unsplash写真入りキービジュアル、18種類のデザインスタイルカタログからスタイル適用、Vercel Cron Jobで毎朝自動生成 |
+| 占星新聞 | HTML/CSS/JS, Cloudflare Workers, Cloudflare Workers KV, Claude API (Haiku), OpenWeatherMap API, PWA | 生年月日・MBTI・血液型を入力するとAIがパーソナライズされた占い新聞を生成。オーロラ背景×星座モチーフのリッチUI、天気データ連携、KVキャッシュ対応 |
