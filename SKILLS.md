@@ -60,6 +60,14 @@
 - **Leaflet.js** — OpenStreetMap連携・ダークテーマ地図・ルート描画（散歩記録）
 - **Web Geolocation API** — watchPositionによるGPS記録・WakeLock連携（散歩記録）
 - **Canvas API（座標正規化・アート描画・PNG出力）** — GPS軌跡データの正規化→線画アート生成・画像ダウンロード（散歩記録）
+- **React Native (Expo)** — iOSネイティブアプリ開発（散歩記録Expo版）
+- **Expo Router** — ファイルベースのタブナビゲーション（散歩記録Expo版）
+- **expo-location** — フォアグラウンド/バックグラウンドGPS位置情報取得（散歩記録Expo版）
+- **react-native-maps** — Apple Maps連携・ルート描画（散歩記録Expo版）
+- **react-native-svg** — SVGベースのルートアート描画（散歩記録Expo版）
+- **react-native-view-shot** — Viewキャプチャ・カメラロール保存（散歩記録Expo版）
+- **AsyncStorage** — ローカルデータ永続化（散歩記録Expo版）
+- **EAS Build** — Expo Application Services クラウドビルド（散歩記録Expo版）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー、業界紙つくーるのSaaSバックエンド
@@ -147,3 +155,4 @@
 4. チャット開始時に「SKILLS.mdを読んで」と伝える
 | 業界紙つくーる | HTML/CSS/JS, Cloudflare Workers, Workers KV, Stripe Checkout/Webhooks, Claude API (web_search), Resend Broadcasts API, GitHub Pages | AI生成業界紙・メルマガSaaS。LP（5業種サンプル・3料金プラン）+ Stripe決済→ヒアリング→Claude API自動生成→承認→Resend一斉配信の完全自動化パイプライン |
 | 散歩記録 | Next.js, TypeScript, Leaflet.js, OpenStreetMap, Vercel KV, Web Geolocation API, Canvas API, WakeLock | GPS連動の散歩記録アプリ。リアルタイムGPS軌跡・距離/時間計測・全ルート重ねマップ・Canvas線画アート出力 |
+| 散歩記録 Expo版 | React Native, Expo SDK 54, TypeScript, expo-location, react-native-maps, react-native-svg, AsyncStorage, EAS Build | iOSネイティブ散歩記録アプリ。GPS記録・Apple Maps連携・SVGルートアート・地図背景トグル・カメラロール保存 |
