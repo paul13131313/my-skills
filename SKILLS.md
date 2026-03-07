@@ -68,6 +68,10 @@
 - **react-native-view-shot** — Viewキャプチャ・カメラロール保存（散歩記録Expo版）
 - **AsyncStorage** — ローカルデータ永続化（散歩記録Expo版）
 - **EAS Build** — Expo Application Services クラウドビルド（散歩記録Expo版）
+- **Supabase Auth + RLS** — 認証・Row Level Securityによるマルチユーザーアクセス制御（Sanpos）
+- **Supabase Realtime Sync** — ローカル保存とクラウド同期の二重保存パターン（Sanpos）
+- **expo-image-picker** — カメラ撮影・フォトライブラリ選択（Sanpos）
+- **React Native Animated API** — スタガードフェードイン・パルスアニメーション（Sanpos）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー、業界紙つくーるのSaaSバックエンド
@@ -158,4 +162,5 @@
 | 散歩記録 Expo版 | React Native, Expo SDK 54, TypeScript, expo-location, react-native-maps, react-native-svg, AsyncStorage, EAS Build | iOSネイティブ散歩記録アプリ。GPS記録・Apple Maps連携・SVGルートアート・地図背景トグル・カメラロール保存 |
 | PROTOTIPER | Next.js (App Router), TypeScript, Tailwind CSS, Claude API (Sonnet), Vercel KV (Upstash Redis), Resend, Vercel Cron | AIが毎日1業種のWebサイトプロトタイプを自動生成する見本市サイト。Unsplash写真入りキービジュアル、18種類のデザインスタイルカタログからスタイル適用、Vercel Cron Jobで毎朝自動生成 |
 | 占星新聞 | HTML/CSS/JS, Cloudflare Workers, Cloudflare Workers KV, Claude API (Haiku), OpenWeatherMap API, PWA | 生年月日・MBTI・血液型を入力するとAIがパーソナライズされた占い新聞を生成。オーロラ背景×星座モチーフのリッチUI、天気データ連携、KVキャッシュ対応 |
+| Sanpos | React Native (Expo), TypeScript, Supabase (Auth + RLS + Storage), expo-location, react-native-maps, expo-image-picker, EAS Build | 散歩を記録・共有するソーシャルウォーキングアプリ。GPS記録・写真スポット・タグシステム（14種4カテゴリ）・公開タイムライン・Supabaseリアルタイム同期・スタガードカードアニメーション |
 | NUISMO | Next.js (App Router), TypeScript, Tailwind CSS, Ably Realtime (Presence/PubSub), CSS Keyframe Animations, Web Audio API | ぬいぐるみたちのリアルタイムバーチャル喫煙所。Ably Presenceで同時接続管理、5種キャラ自動割当（NPC重複回避）＆デフォルト向き定義による向き合いロジック、火を借りるスライドアニメーション→煙開始、煙パーティクル（mix-blend-mode）＆微動アニメーション、環境音BGM |
