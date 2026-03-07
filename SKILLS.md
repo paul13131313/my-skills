@@ -44,6 +44,8 @@
 - **CSS Custom Properties（動的スタイリング）** — JavaScript連携のリアルタイムスタイル制御（Silent Call）
 - **navigator.vibrate() API** — デバイス振動フィードバック（Silent Call）
 - **Google Fonts (Noto Serif JP / Noto Sans JP)** — 日本語Webフォント活用（Silent Call）
+- **next/font/google** — Next.jsフォント最適化・セルフホスティング（私を構成する3つの言葉）
+- **Next.js static export (output: "export")** — 静的HTML出力でGitHub Pages等にデプロイ（私を構成する3つの言葉）
 - **html2canvas** — DOM→Canvas画像化・SNSシェア用画像保存（KANJI ME）
 - **Web Share API** — ファイル付きネイティブ共有・画像+テキスト+URLのSNSシェア（KANJI ME）
 - **PWA マニフェスト / apple-touch-icon** — ホーム画面アイコン対応（KANJI ME）
@@ -164,3 +166,4 @@
 | 占星新聞 | HTML/CSS/JS, Cloudflare Workers, Cloudflare Workers KV, Claude API (Haiku), OpenWeatherMap API, PWA | 生年月日・MBTI・血液型を入力するとAIがパーソナライズされた占い新聞を生成。オーロラ背景×星座モチーフのリッチUI、天気データ連携、KVキャッシュ対応 |
 | Sanpos | React Native (Expo), TypeScript, Supabase (Auth + RLS + Storage), expo-location, react-native-maps, expo-image-picker, EAS Build | 散歩を記録・共有するソーシャルウォーキングアプリ。GPS記録・写真スポット・タグシステム（14種4カテゴリ）・公開タイムライン・Supabaseリアルタイム同期・スタガードカードアニメーション |
 | NUISMO | Next.js (App Router), TypeScript, Tailwind CSS, Ably Realtime (Presence/PubSub), CSS Keyframe Animations, Web Audio API | ぬいぐるみたちのリアルタイムバーチャル喫煙所。Ably Presenceで同時接続管理、5種キャラ自動割当（NPC重複回避）＆デフォルト向き定義による向き合いロジック、火を借りるスライドアニメーション→煙開始、煙パーティクル（mix-blend-mode）＆微動アニメーション、環境音BGM |
+| 私を構成する3つの言葉 | Next.js 16 (App Router, static export), TypeScript, Tailwind CSS, Canvas API, next/font/google, Web Share API | 自分を構成する3つの言葉を入力してCanvas APIで1080x1080シェア画像を生成するツール |
