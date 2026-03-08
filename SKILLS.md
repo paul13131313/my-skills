@@ -146,7 +146,7 @@
 | We TASK | Next.js, Upstash Redis, Chatwork API, Drag and Drop API | チーム雑務見える化ボード（THANKSカード・チュートリアル付き） |
 | Silent Call | Vite, React, TypeScript, CSS writing-mode, navigator.vibrate() | 飲食店で声を出さずに店員を呼べるサイレントコールアプリ |
 | KANJI ME | Next.js, TypeScript, Tailwind CSS, Claude API (Haiku), html2canvas, Web Share API, Vercel KV, Stripe, next/og, ISR, Vercel Analytics | 英語名をAI漢字変換。名前別URL＋動的OGP・SEO事前生成100名・Analyticsによるバイラルループ計測対応のフリーミアムアプリ |
-| 台灣生成新聞 | Next.js, TypeScript, Claude API (Haiku), Upstash Redis, Resend API, Together AI, Vercel Cron Jobs, RSS解析 | 台湾8メディアのニュースをAI翻訳・要約。為替・株価・天気リアルタイム表示、日本企業台湾進出事例、メール配信対応 |
+| 台灣生成新聞 | Next.js, TypeScript, Claude API (Haiku), Upstash Redis, Resend API, Together AI, Vercel Cron Jobs, RSS解析(11フィード) | 台湾11メディアRSSからAIが毎朝キュレーション。TAIEX株価・台北天気ヘッダー、6コーナー構成（トレンド/カフェ＆グルメ/ビューティー＆ブランド/SNSバズ/台湾人が見ている日本/台湾文化史）、新聞風レイアウト（2段組・カードグリッド・引用スタイル混在）、メール配信対応 |
 | WORLD LIVE CAMERAS | React, TypeScript, Tailwind CSS, Vite, YouTube IFrame API, Intl.DateTimeFormat | 世界中のYouTubeライブカメラを監視ルームのように一覧表示するサイト |
 | INFINITE WINDOW | HTML, CSS, Vanilla JS | Windows 98 GDIバグ再現シミュレーター。ドラッグ残像が積み重なり画面が壊れていく |
 | MONEY TRAIL | Next.js, TypeScript, Tailwind CSS, D3.js (d3-sankey), Anthropic SDK (Claude Haiku API), Next.js API Routes | 商品価格のお金の流れをSankeyダイアグラムで可視化。AI推定機能で任意の商品名+価格からコスト内訳をリアルタイム生成 |
