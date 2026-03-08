@@ -168,3 +168,4 @@
 | NUISMO | Next.js (App Router), TypeScript, Tailwind CSS, Ably Realtime (Presence/PubSub), CSS Keyframe Animations, Web Audio API | ぬいぐるみたちのリアルタイムバーチャル喫煙所。Ably Presenceで同時接続管理、5種キャラ自動割当（NPC重複回避）＆デフォルト向き定義による向き合いロジック、火を借りるスライドアニメーション→煙開始、煙パーティクル（mix-blend-mode）＆微動アニメーション、環境音BGM |
 | 私を構成する3つの言葉 | Next.js 16 (App Router, static export), TypeScript, Tailwind CSS, Canvas API, next/font/google, Web Share API | 自分を構成する3つの言葉を入力してCanvas APIで1080x1080シェア画像を生成するツール |
 | SKILLS TEXTBOOK | HTML, CSS, JavaScript, Google Fonts | 40+プロジェクトの技術を逆引きで学べるインタラクティブHTML教科書 |
+| まなべーる | Next.js (App Router), TypeScript, Tailwind CSS, Claude API, Stripe Checkout | 知りたい分野を入力するだけでAI教科書＋問題集を自動生成するWebアプリ。対話型フロー・Stripe決済統合・選択式自動採点＋記述式模範解答 |
