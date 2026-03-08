@@ -170,3 +170,4 @@
 | SKILLS TEXTBOOK | HTML, CSS, JavaScript, Google Fonts | 40+プロジェクトの技術を逆引きで学べるインタラクティブHTML教科書 |
 | まなべーる | Next.js (App Router), TypeScript, Tailwind CSS, Claude API, Stripe Checkout, html2pdf.js, localStorage | 知りたい分野を入力するだけでAI教科書＋問題集を自動生成するWebアプリ。対話型フロー・Stripe決済統合・選択式自動採点＋記述式模範解答・PDFダウンロード・localStorage購入済み教科書保存 |
 | セキュリティ意識テスト 2026 | Next.js 16, TypeScript, Tailwind CSS, Vercel | 50問の診断テストでフィジカル防犯・デジタル・海外旅行・詐欺・職場の5カテゴリからセキュリティ意識を偏差値・ランク判定。Windows 95風レトロUI・URL共有対応 |
+| FAKE HACK | Next.js 16 (App Router), TypeScript, Fullscreen API, Web Audio API, CSS Keyframe Animations, PWA, Vercel | セキュリティ啓発ドッキリサイト。怪しいリンクをタップするとスマホ乗っ取り風の8段階演出（画面フリーズ→偽ホーム画面→ウイルス感染→ターミナル→脅迫メッセージ→ネタバラシ→啓発）が展開。8種の効果音・シェイクアニメーション・フリッカー・グリッチ効果 |
