@@ -167,3 +167,4 @@
 | Sanpos | React Native (Expo), TypeScript, Supabase (Auth + RLS + Storage), expo-location, react-native-maps, expo-image-picker, EAS Build | 散歩を記録・共有するソーシャルウォーキングアプリ。GPS記録・写真スポット・タグシステム（14種4カテゴリ）・公開タイムライン・Supabaseリアルタイム同期・スタガードカードアニメーション |
 | NUISMO | Next.js (App Router), TypeScript, Tailwind CSS, Ably Realtime (Presence/PubSub), CSS Keyframe Animations, Web Audio API | ぬいぐるみたちのリアルタイムバーチャル喫煙所。Ably Presenceで同時接続管理、5種キャラ自動割当（NPC重複回避）＆デフォルト向き定義による向き合いロジック、火を借りるスライドアニメーション→煙開始、煙パーティクル（mix-blend-mode）＆微動アニメーション、環境音BGM |
 | 私を構成する3つの言葉 | Next.js 16 (App Router, static export), TypeScript, Tailwind CSS, Canvas API, next/font/google, Web Share API | 自分を構成する3つの言葉を入力してCanvas APIで1080x1080シェア画像を生成するツール |
+| SKILLS TEXTBOOK | HTML, CSS, JavaScript, Google Fonts | 40+プロジェクトの技術を逆引きで学べるインタラクティブHTML教科書 |
