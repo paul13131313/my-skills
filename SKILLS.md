@@ -181,3 +181,4 @@
 | FAKE HACK | Next.js 16 (App Router), TypeScript, Fullscreen API, Web Audio API, CSS Keyframe Animations, PWA, Vercel | セキュリティ啓発ドッキリサイト。怪しいリンクをタップするとスマホ乗っ取り風の8段階演出（画面フリーズ→偽ホーム画面→ウイルス感染→ターミナル→脅迫メッセージ→ネタバラシ→啓発）が展開。8種の効果音・シェイクアニメーション・フリッカー・グリッチ効果 |
 | AUTONOTE | Node.js (CommonJS), Playwright, Bash, note.com DOM操作 | ポートフォリオ管理からnote記事の下書き作成まで自動化するCLIツールキット。Cookie認証によるnote.comログイン・ProseMirrorエディタ操作・headless/headed切り替え・Bashスクリプトによるファイル一括操作 |
 | pol | Vite, React, Canvas 2D (タイルマップ・ピクセルスプライト・深度ソート), 遺伝的アルゴリズム (DNA突然変異・適者生存), Claude API (Vercel Serverless Function) | 8bit RPG風進化シミュレーション。トップダウンタイルマップで生命が5段階進化し、文明を築き、AIを通じて創造主と対話する |
+| 自伝メーカー (autobiography-maker) | Next.js 16, TypeScript, Tailwind CSS, Claude API (Opus 4.5), Noto Serif JP / Manrope | 18の質問に答えるだけでAIが偉人伝スタイルの自伝を生成。4フェーズUI（intro→questions→generating→result）、写真アップロード、印刷機能、Maigawara Spiralスタイル（ベージュ背景・オレンジ縦帯+縦書き・同心円SVG） |
