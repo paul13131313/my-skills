@@ -98,6 +98,12 @@
 - **Vercel Cron Jobs** — 定時自動実行・CRON_SECRET認証（台灣生成新聞）
 - **Together AI API** — 画像生成API（台灣生成新聞ヒーロー画像）
 
+### 自動化 / CLI
+- **Playwright（ブラウザ自動操作）** — Cookie認証・headless/headed切り替え・note.com ProseMirrorエディタ操作（AUTONOTE）
+- **Node.js CLI（CommonJS）** — readline対話型プロンプト・child_process連携・CLIツール構築（AUTONOTE）
+- **Bashスクリプト（ファイル操作）** — find・sed・一括ファイル操作・シェルスクリプト自動化（AUTONOTE）
+- **note.com DOM操作** — ProseMirrorエディタへのkeyboard.type入力・下書き自動作成（AUTONOTE）
+
 ### ツール / デプロイ
 - **GitHub Pages** — 静的サイトホスティング（カスタムドメイン対応）
 - **Cloudflare Registrar** — ドメイン取得・DNS管理（seiseishinbun.com）
@@ -171,3 +177,4 @@
 | まなべーる | Next.js (App Router), TypeScript, Tailwind CSS, Claude API, Stripe Checkout, html2pdf.js, localStorage | 知りたい分野を入力するだけでAI教科書＋問題集を自動生成するWebアプリ。対話型フロー・Stripe決済統合・選択式自動採点＋記述式模範解答・PDFダウンロード・localStorage購入済み教科書保存 |
 | セキュリティ意識テスト 2026 | Next.js 16, TypeScript, Tailwind CSS, Vercel | 50問の診断テストでフィジカル防犯・デジタル・海外旅行・詐欺・職場の5カテゴリからセキュリティ意識を偏差値・ランク判定。Windows 95風レトロUI・URL共有対応 |
 | FAKE HACK | Next.js 16 (App Router), TypeScript, Fullscreen API, Web Audio API, CSS Keyframe Animations, PWA, Vercel | セキュリティ啓発ドッキリサイト。怪しいリンクをタップするとスマホ乗っ取り風の8段階演出（画面フリーズ→偽ホーム画面→ウイルス感染→ターミナル→脅迫メッセージ→ネタバラシ→啓発）が展開。8種の効果音・シェイクアニメーション・フリッカー・グリッチ効果 |
+| AUTONOTE | Node.js (CommonJS), Playwright, Bash, note.com DOM操作 | ポートフォリオ管理からnote記事の下書き作成まで自動化するCLIツールキット。Cookie認証によるnote.comログイン・ProseMirrorエディタ操作・headless/headed切り替え・Bashスクリプトによるファイル一括操作 |
