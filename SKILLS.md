@@ -23,6 +23,8 @@
 - **CSS Scroll-Driven Animations** — スクロール連動アニメーション（SCROLL STAGE）
 - **Intersection Observer** — 要素可視性検出・遅延表示（SCROLL STAGE）
 - **Canvas 2D ゲーム開発** — ゲームループ・当たり判定・状態管理（PIXEL DODGE）
+- **Canvas 2D タイルマップ・ピクセルスプライト** — RPG風トップダウンビュー・深度ソート・手続き的地形生成（pol）
+- **遺伝的アルゴリズム** — DNA突然変異・適者生存シミュレーション・進化ステージ管理（pol）
 - **Canvas 2D 画像解析・物理シミュレーション** — ピクセルベースエッジ検出によるUI要素自動分割、自前物理エンジン（重力・空気抵抗・床バウンス）（画面崩壊）
 - **WebSocket** — リアルタイム双方向通信（LIVE BOARD）
 - **HTML Drag and Drop API** — ネイティブドラッグ&ドロップ（KANBAN FLOW）
@@ -178,4 +180,4 @@
 | セキュリティ意識テスト 2026 | Next.js 16, TypeScript, Tailwind CSS, Vercel | 50問の診断テストでフィジカル防犯・デジタル・海外旅行・詐欺・職場の5カテゴリからセキュリティ意識を偏差値・ランク判定。Windows 95風レトロUI・URL共有対応 |
 | FAKE HACK | Next.js 16 (App Router), TypeScript, Fullscreen API, Web Audio API, CSS Keyframe Animations, PWA, Vercel | セキュリティ啓発ドッキリサイト。怪しいリンクをタップするとスマホ乗っ取り風の8段階演出（画面フリーズ→偽ホーム画面→ウイルス感染→ターミナル→脅迫メッセージ→ネタバラシ→啓発）が展開。8種の効果音・シェイクアニメーション・フリッカー・グリッチ効果 |
 | AUTONOTE | Node.js (CommonJS), Playwright, Bash, note.com DOM操作 | ポートフォリオ管理からnote記事の下書き作成まで自動化するCLIツールキット。Cookie認証によるnote.comログイン・ProseMirrorエディタ操作・headless/headed切り替え・Bashスクリプトによるファイル一括操作 |
-| pol | Vite, React, Canvas API, Claude API (via Vercel Serverless Function) | 生命が進化し文明を築き、やがて自我に目覚めた文明がAIを通じて創造主と対話する進化シミュレーション |
+| pol | Vite, React, Canvas 2D (タイルマップ・ピクセルスプライト・深度ソート), 遺伝的アルゴリズム (DNA突然変異・適者生存), Claude API (Vercel Serverless Function) | 8bit RPG風進化シミュレーション。トップダウンタイルマップで生命が5段階進化し、文明を築き、AIを通じて創造主と対話する |
