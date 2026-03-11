@@ -76,6 +76,7 @@
 - **Supabase Realtime Sync** — ローカル保存とクラウド同期の二重保存パターン（Sanpos）
 - **expo-image-picker** — カメラ撮影・フォトライブラリ選択（Sanpos）
 - **React Native Animated API** — スタガードフェードイン・パルスアニメーション（Sanpos）
+- **CSS color-mix()** — 動的な色の混合・照明演出（SWITCH MUSEUM）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー、業界紙つくーるのSaaSバックエンド
@@ -187,3 +188,4 @@
 | あんたなんぼなん？ | Next.js (App Router), TypeScript, Tailwind CSS, Anthropic Claude API | 関西のオバちゃんAIがチャット形式で適正年収を査定。偏差値・世界/国内/業界ランク（S〜D）表示 |
 | 激写！熱愛メーカー | Vite, React, TypeScript, Tailwind CSS, Canvas API | 写真1枚アップで4種の熱愛スクープ報道風画像を生成するジェネレーター |
 | AIで稼いだお金の話をしよう | HTML/CSS/JS, Google Fonts, SVG Animation, Vercel | カウントダウン付きリダイレクトページ。ゴールド×黒のリッチなデザイン |
+| SWITCH MUSEUM | Vite, React, TypeScript, Tailwind CSS, Web Audio API, CSS color-mix(), GitHub Pages | 100種のスイッチUIが並ぶ博物館。ONにするたびサイトの照明が落ちていく体験型サイト |
