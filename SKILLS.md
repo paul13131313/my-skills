@@ -183,3 +183,4 @@
 | pol | Vite, React, Canvas 2D (タイルマップ・ピクセルスプライト・深度ソート), 遺伝的アルゴリズム (DNA突然変異・適者生存), Claude API (Vercel Serverless Function) | 8bit RPG風進化シミュレーション。トップダウンタイルマップで生命が5段階進化し、文明を築き、AIを通じて創造主と対話する |
 | 自伝メーカー (autobiography-maker) | Next.js 16, TypeScript, Tailwind CSS, Claude API (Opus 4.5), Noto Serif JP / Manrope | 18の質問に答えるだけでAIが偉人伝スタイルの自伝を生成。4フェーズUI（intro→questions→generating→result）、写真アップロード、印刷機能、Maigawara Spiralスタイル（ベージュ背景・オレンジ縦帯+縦書き・同心円SVG） |
 | EXTREME RANKINGS | Vite, React, TypeScript, Tailwind CSS, Anthropic Claude API（データ生成）, GitHub Pages | 「この世界で最も○○」な極端ランキング20問をビジュアライズするインタラクティブデータサイト。Claude APIで生成したランキングデータを静的JSONとしてバンドルし、ダークテーマ＋オレンジアクセントのGood Fella Craft系UIで表示 |
+| Synchronization 制作記録 | Vite, React, TypeScript, Tailwind CSS, GitHub Pages | AI×人間の長編小説制作ドキュメンタリーページ。小説制作プロセスを記録・公開 |
