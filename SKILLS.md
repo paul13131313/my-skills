@@ -186,3 +186,4 @@
 | Synchronization 制作記録 | Vite, React, TypeScript, Tailwind CSS, GitHub Pages | AI×人間の長編小説制作ドキュメンタリーページ。小説制作プロセスを記録・公開 |
 | あんたなんぼなん？ | Next.js (App Router), TypeScript, Tailwind CSS, Anthropic Claude API | 関西のオバちゃんAIがチャット形式で適正年収を査定。偏差値・世界/国内/業界ランク（S〜D）表示 |
 | 激写！熱愛メーカー | Vite, React, TypeScript, Tailwind CSS, Canvas API | 写真1枚アップで4種の熱愛スクープ報道風画像を生成するジェネレーター |
+| AIで稼いだお金の話をしよう | HTML/CSS/JS, Google Fonts, SVG Animation, Vercel | カウントダウン付きリダイレクトページ。ゴールド×黒のリッチなデザイン |
