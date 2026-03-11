@@ -185,3 +185,4 @@
 | EXTREME RANKINGS | Vite, React, TypeScript, Tailwind CSS, Anthropic Claude API（データ生成）, GitHub Pages | 「この世界で最も○○」な極端ランキング20問をビジュアライズするインタラクティブデータサイト。Claude APIで生成したランキングデータを静的JSONとしてバンドルし、ダークテーマ＋オレンジアクセントのGood Fella Craft系UIで表示 |
 | Synchronization 制作記録 | Vite, React, TypeScript, Tailwind CSS, GitHub Pages | AI×人間の長編小説制作ドキュメンタリーページ。小説制作プロセスを記録・公開 |
 | あんたなんぼなん？ | Next.js (App Router), TypeScript, Tailwind CSS, Anthropic Claude API | 関西のオバちゃんAIがチャット形式で適正年収を査定。偏差値・世界/国内/業界ランク（S〜D）表示 |
+| 激写！熱愛メーカー | Vite, React, TypeScript, Tailwind CSS, Canvas API | 写真1枚アップで4種の熱愛スクープ報道風画像を生成するジェネレーター |
