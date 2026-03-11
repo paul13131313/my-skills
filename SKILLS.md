@@ -77,6 +77,8 @@
 - **expo-image-picker** — カメラ撮影・フォトライブラリ選択（Sanpos）
 - **React Native Animated API** — スタガードフェードイン・パルスアニメーション（Sanpos）
 - **CSS color-mix()** — 動的な色の混合・照明演出（SWITCH MUSEUM）
+- **Supabase Storage** — ユーザーアバター画像のアップロード・公開URL管理（nines）
+- **iTunes Search API** — 音楽アルバム検索・アートワーク取得（nines）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー、業界紙つくーるのSaaSバックエンド
@@ -189,3 +191,4 @@
 | 激写！熱愛メーカー | Vite, React, TypeScript, Tailwind CSS, Canvas API | 写真1枚アップで4種の熱愛スクープ報道風画像を生成するジェネレーター |
 | AIで稼いだお金の話をしよう | HTML/CSS/JS, Google Fonts, SVG Animation, Vercel | カウントダウン付きリダイレクトページ。ゴールド×黒のリッチなデザイン |
 | SWITCH MUSEUM | Vite, React, TypeScript, Tailwind CSS, Web Audio API, CSS color-mix(), GitHub Pages | 100種のスイッチUIが並ぶ博物館。ONにするたびサイトの照明が落ちていく体験型サイト |
+| nines | Next.js 16, TypeScript, Tailwind CSS v4, Supabase (Auth + RLS + Storage), OMDB API, Jikan API, RAWG API, Google Books API, iTunes Search API, next/og, PWA | 好きなコンテンツ9つを並べるキュレーションSNS。映画・ドラマ・音楽・ゲーム・マンガ・小説を検索して3×3グリッドに配置、マッチ率で他ユーザーとつながる |
