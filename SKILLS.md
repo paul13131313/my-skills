@@ -79,6 +79,8 @@
 - **CSS color-mix()** — 動的な色の混合・照明演出（SWITCH MUSEUM）
 - **Supabase Storage** — ユーザーアバター画像のアップロード・公開URL管理（nines）
 - **iTunes Search API** — 音楽アルバム検索・アートワーク取得（nines）
+- **face-api.js** — 顔検出・顔ランドマーク68点抽出（shirome）
+- **Canvas API（顔ランドマーク連動描画）** — 顔検出結果から目の位置に楕円を描画する画像加工（shirome）
 
 ### バックエンド / インフラ
 - **Cloudflare Workers** — 生成新聞のAPI・配信基盤、LIVE BOARDのWebSocketサーバー、業界紙つくーるのSaaSバックエンド
@@ -192,3 +194,4 @@
 | AIで稼いだお金の話をしよう | HTML/CSS/JS, Google Fonts, SVG Animation, Vercel | カウントダウン付きリダイレクトページ。ゴールド×黒のリッチなデザイン |
 | SWITCH MUSEUM | Vite, React, TypeScript, Tailwind CSS, Web Audio API, CSS color-mix(), GitHub Pages | 100種のスイッチUIが並ぶ博物館。ONにするたびサイトの照明が落ちていく体験型サイト |
 | nines | Next.js 16, TypeScript, Tailwind CSS v4, Supabase (Auth + RLS + Storage), OMDB API, Jikan API, RAWG API, Google Books API, iTunes Search API, next/og, PWA | 好きなコンテンツ9つを並べるキュレーションSNS。映画・ドラマ・音楽・ゲーム・マンガ・小説を検索して3×3グリッドに配置、マッチ率で他ユーザーとつながる |
+| shirome（白目ジェネレーター） | React, TypeScript, face-api.js, Canvas API, Vite | face-api.jsで顔の目を検出し白い楕円で白目化する画像ジェネレーター |
