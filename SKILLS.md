@@ -58,7 +58,7 @@
 - **大規模HTML（base64画像埋め込み）の効率的編集** — 単一ファイル内の巨大base64画像管理（台灣生成新聞）
 - **著作権リスク軽減の構成設計** — 記事面と広告面の分離、出典明記「〇〇によると」形式、Disclaimer配置（台灣生成新聞）
 - **デュアルバージョン運用** — 商用版（PR付き）と個人版（ブランディング除去）の同時公開・管理（台灣生成新聞）
-- **next/og (ImageResponse)** — Edge Runtimeで動的OGP画像生成・フォントサブセッティング（KANJI ME）
+- **next/og (ImageResponse)** — Edge Runtimeで動的OGP画像生成・フォントサブセッティング（KANJI ME）、Satori制約対応・radial-gradientメッシュ光源・日本語禁則処理・CJKフォントバンドル（OGP IMAGE API）
 - **ISR (Incremental Static Regeneration)** — generateStaticParams＋revalidateで事前生成＋定期再検証（KANJI ME）
 - **Vercel Analytics** — ページビュー・カスタムイベント計測（KANJI ME）
 - **Leaflet.js** — OpenStreetMap連携・ダークテーマ地図・ルート描画（散歩記録）
