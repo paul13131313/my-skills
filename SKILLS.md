@@ -105,7 +105,7 @@
 - **RSS/Atomフィード解析** — Google News RSS、はてブhotentry、artscape・CINRA等の実データ注入（生成新聞）
 - **Open-Meteo API** — 天気実データ取得・複数都市一括天気予報ティッカー（生成新聞）、花粉データ取得・Air Quality API連携（KAFUN PARAPARA）
 - **Stooq CSV API** — 株価・為替データ取得（生成新聞）
-- **LINE Messaging API** — Bot連携（体重記録システム）
+- **LINE Messaging API** — Bot連携・webhook署名検証(HMAC-SHA256)・broadcast配信（体重記録システム、そろそろbot）
 - **YouTube Data API v3** — 動画検索・埋め込み可否チェック（PUNCH PUNCH PUNCH）
 - **Chatwork API** — タスク完了通知・THANKSカード連携（We TASK）
 - **Resend API** — トランザクションメール配信・独自ドメイン認証（生成新聞、台灣生成新聞）、Broadcasts/Audiences APIで一斉配信（業界紙つくーる）
@@ -204,3 +204,4 @@
 | shirome（白目ジェネレーター） | React, TypeScript, face-api.js, Canvas API, Vite | face-api.jsで顔の目を検出し白い楕円で白目化する画像ジェネレーター |
 | 名刺バトラー (meishi-battler) | Next.js, TypeScript, Tailwind CSS, Claude Vision API, Anthropic SDK, Dela Gothic One, M PLUS Rounded 1c, Vercel | Claude Vision APIで名刺を解析し戦闘力を算出してバトルするWebアプリ。コロコロコミック風POPデザイン |
 | 戒名メーカー | Next.js, TypeScript, Claude API, Noto Serif JP, CSS writing-mode | 5つの質問に答えるとClaude APIが民明書房風解説付き戒名を生成。和紙風・縦書きデザイン |
+| そろそろbot | Next.js, TypeScript, LINE Messaging API (webhook/broadcast), Vercel Cron | 季節イベントを「そろそろ準備しなきゃ」のタイミングで届けるLINE Bot。27の季節イベントDB・毎朝9時自動通知・友だち追加ウェルカムメッセージ・HMAC-SHA256署名検証 |
