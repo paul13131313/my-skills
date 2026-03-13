@@ -203,3 +203,4 @@
 | nines | Next.js 16, TypeScript, Tailwind CSS v4, Supabase (Auth + RLS + Storage), OMDB API, Jikan API, RAWG API, Google Books API, iTunes Search API, next/og, PWA | 好きなコンテンツ9つを並べるキュレーションSNS。映画・ドラマ・音楽・ゲーム・マンガ・小説を検索して3×3グリッドに配置、マッチ率で他ユーザーとつながる |
 | shirome（白目ジェネレーター） | React, TypeScript, face-api.js, Canvas API, Vite | face-api.jsで顔の目を検出し白い楕円で白目化する画像ジェネレーター |
 | 名刺バトラー (meishi-battler) | Next.js, TypeScript, Tailwind CSS, Claude Vision API, Anthropic SDK, Dela Gothic One, M PLUS Rounded 1c, Vercel | Claude Vision APIで名刺を解析し戦闘力を算出してバトルするWebアプリ。コロコロコミック風POPデザイン |
+| 戒名メーカー | Next.js, TypeScript, Claude API, Noto Serif JP, CSS writing-mode | 5つの質問に答えるとClaude APIが民明書房風解説付き戒名を生成。和紙風・縦書きデザイン |
