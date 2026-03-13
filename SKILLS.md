@@ -81,6 +81,8 @@
 - **iTunes Search API** — 音楽アルバム検索・アートワーク取得（nines）
 - **face-api.js** — 顔検出・顔ランドマーク68点抽出（shirome）
 - **Canvas API（顔ランドマーク連動描画）** — 顔検出結果から目の位置に楕円を描画する画像加工（shirome）
+- **Google Fonts（Dela Gothic One + M PLUS Rounded 1c）** — コミック風日本語Webフォント活用（名刺バトラー）
+- **コミックスタイルUI設計** — コロコロコミック風POPデザイン・ネオンカラー・回転テキスト・CSS transform/box-shadow多重効果（名刺バトラー）
 
 ### AI / 画像解析
 - **Claude Vision API** — 画像解析・名刺読み取り（名刺バトラー）
@@ -200,4 +202,4 @@
 | SWITCH MUSEUM | Vite, React, TypeScript, Tailwind CSS, Web Audio API, CSS color-mix(), GitHub Pages | 100種のスイッチUIが並ぶ博物館。ONにするたびサイトの照明が落ちていく体験型サイト |
 | nines | Next.js 16, TypeScript, Tailwind CSS v4, Supabase (Auth + RLS + Storage), OMDB API, Jikan API, RAWG API, Google Books API, iTunes Search API, next/og, PWA | 好きなコンテンツ9つを並べるキュレーションSNS。映画・ドラマ・音楽・ゲーム・マンガ・小説を検索して3×3グリッドに配置、マッチ率で他ユーザーとつながる |
 | shirome（白目ジェネレーター） | React, TypeScript, face-api.js, Canvas API, Vite | face-api.jsで顔の目を検出し白い楕円で白目化する画像ジェネレーター |
-| 名刺バトラー (meishi-battler) | Next.js, TypeScript, Tailwind CSS, Claude Vision API, Anthropic SDK, Vercel | Claude Vision APIで名刺を解析し、企業・肩書き・資格・画数から戦闘力を算出してバトルするWebアプリ |
+| 名刺バトラー (meishi-battler) | Next.js, TypeScript, Tailwind CSS, Claude Vision API, Anthropic SDK, Dela Gothic One, M PLUS Rounded 1c, Vercel | Claude Vision APIで名刺を解析し戦闘力を算出してバトルするWebアプリ。コロコロコミック風POPデザイン |
