@@ -205,3 +205,4 @@
 | 名刺バトラー (meishi-battler) | Next.js, TypeScript, Tailwind CSS, Claude Vision API, Anthropic SDK, Dela Gothic One, M PLUS Rounded 1c, Vercel | Claude Vision APIで名刺を解析し戦闘力を算出してバトルするWebアプリ。コロコロコミック風POPデザイン |
 | 戒名メーカー | Next.js, TypeScript, Claude API, Noto Serif JP, CSS writing-mode | 5つの質問に答えるとClaude APIが民明書房風解説付き戒名を生成。和紙風・縦書きデザイン |
 | そろそろbot | Next.js, TypeScript, LINE Messaging API (webhook/broadcast), Vercel Cron | 季節イベントを「そろそろ準備しなきゃ」のタイミングで届けるLINE Bot。27の季節イベントDB・毎朝9時自動通知・友だち追加ウェルカムメッセージ・HMAC-SHA256署名検証 |
+| ASCII Art Generator | Vite, React, TypeScript, Tailwind CSS, Canvas API, Vercel | 写真を高密度文字配列アートに変換。エッジ検出・カラーモード・解像度調整対応 |
