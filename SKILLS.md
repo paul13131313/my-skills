@@ -207,3 +207,4 @@
 | そろそろbot | Next.js, TypeScript, LINE Messaging API (webhook/broadcast), Vercel Cron | 季節イベントを「そろそろ準備しなきゃ」のタイミングで届けるLINE Bot。27の季節イベントDB・毎朝9時自動通知・友だち追加ウェルカムメッセージ・HMAC-SHA256署名検証 |
 | ASCII Art Generator | Vite, React, TypeScript, Tailwind CSS, Canvas API, Vercel | 写真を高密度文字配列アートに変換。エッジ検出・カラーモード・解像度調整対応 |
 | 87 | RADAR CHART MAKER | https://paul13131313.github.io/radar-chart/ | 3〜8軸対応レーダーチャートメーカー。複数データ重ね合わせ比較・SVG/PNG書き出し・5種プリセット付き |
+| 52 | MVVメーカー | https://mvv-maker.vercel.app | 質問に答えるだけでAIがMVV（ミッション・ビジョン・バリュー・パーパス）を生成。Pro/Premiumプラン準備中 |
