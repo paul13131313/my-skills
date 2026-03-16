@@ -54,6 +54,8 @@
 - **CSS position: absolute によるクレジット注釈オーバーレイ** — AI生成画像へのクレジット表記（台灣生成新聞）
 - **object-fit: cover による画像トリミング** — 黒帯除去・アスペクト比調整（台灣生成新聞）
 - **Canvas API + MediaRecorder（動画生成）** — ブラウザ上でCanvas描画→WebM動画エンコード・AudioContext BGMミキシング（走馬灯 SOMATO）
+- **Canvas 2D エンドロール描画** — requestAnimationFrameによるスクロールアニメーション・テキスト配置・フェードイン/アウト（END ROLL MAKER）
+- **pako (zlib deflate/inflate)** — URLデータ圧縮・日本語テキストの効率的エンコーディング（END ROLL MAKER）
 - **Canvas APIベースのピクセル分析** — 画像内の黒帯検出・自動トリミング判定（台灣生成新聞）
 - **大規模HTML（base64画像埋め込み）の効率的編集** — 単一ファイル内の巨大base64画像管理（台灣生成新聞）
 - **著作権リスク軽減の構成設計** — 記事面と広告面の分離、出典明記「〇〇によると」形式、Disclaimer配置（台灣生成新聞）
@@ -173,6 +175,7 @@
 | KAFUN PARAPARA | Next.js 15, TypeScript, Tailwind CSS v4, Canvas 2D パーティクル, Open-Meteo API (気温・風速・季節ベース花粉推定), mix-blend-mode: multiply | リアルタイム花粉データ連動トラッカー。ギャル3Dキャラアニメーション×花粉レベル5段階×Canvas花粉パーティクル。スプラッシュ画面（モバイル動画自動再生対応）・隠しデバッグコマンド・推定データ注釈ツールチップ付き |
 | テープ貼るやつ (tepla-studio) | React, TypeScript, Vite, Canvas API, Vercel | ブラウザで作るラベルシミュレーター。テープの色（白/黒、黄/黒、赤/白、青/白、緑/白、桃/黒、黒/白、透明/黒）・幅（6mm〜24mm）・書体（明朝・ゴシック）・字幅・向き・内枠を選択し、ボード上に自由に配置。ラベルのドラッグ移動、回転、インライン編集、個別PNG書き出し、ボード全体のPNG書き出しに対応 |
 | 走馬灯 SOMATO | Next.js, TypeScript, Tailwind CSS, Canvas API, MediaRecorder, Web Workers, AudioContext, Yuji Syuku | 写真が走馬灯のように駆け巡る動画を生成するWebアプリ。速度パターン3種（Sine/Burst/Random）、BGMミキシング、9:16縦型WebM出力。ブラウザ完結 |
+| END ROLL MAKER | Next.js 16, TypeScript, Tailwind CSS, Canvas 2D, pako (deflate), Web Audio API, Noto Serif JP / IM Fell English | 人生のエンドロールを映画風に作成・共有するWebアプリ。キャスト7セクション・プロフィール（経歴/転機/趣味/好きなもの/三言葉/感謝メッセージ）・BGM付きCanvas再生・deflate圧縮URL共有 |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
@@ -207,4 +210,5 @@
 | そろそろbot | Next.js, TypeScript, LINE Messaging API (webhook/broadcast), Vercel Cron | 季節イベントを「そろそろ準備しなきゃ」のタイミングで届けるLINE Bot。27の季節イベントDB・毎朝9時自動通知・友だち追加ウェルカムメッセージ・HMAC-SHA256署名検証 |
 | ASCII Art Generator | Vite, React, TypeScript, Tailwind CSS, Canvas API, Vercel | 写真を高密度文字配列アートに変換。エッジ検出・カラーモード・解像度調整対応 |
 | 87 | RADAR CHART MAKER | https://paul13131313.github.io/radar-chart/ | 3〜8軸対応レーダーチャートメーカー。複数データ重ね合わせ比較・SVG/PNG書き出し・5種プリセット付き |
+| 88 | END ROLL MAKER | https://end-roll-maker-three.vercel.app | あなたの人生のエンドロールを映画風に作成・共有。キャスト登録・プロフィール編集・BGM付きCanvas再生・URL共有 |
 | 52 | MVVメーカー | https://mvv-maker.vercel.app | 質問に答えるだけでAIがMVV（ミッション・ビジョン・バリュー・パーパス）を生成。Pro/Premiumプラン準備中 |
