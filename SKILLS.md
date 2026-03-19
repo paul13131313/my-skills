@@ -209,6 +209,7 @@
 | 戒名メーカー | Next.js, TypeScript, Claude API, Noto Serif JP, CSS writing-mode | 5つの質問に答えるとClaude APIが民明書房風解説付き戒名を生成。和紙風・縦書きデザイン |
 | そろそろbot | Next.js, TypeScript, LINE Messaging API (webhook/broadcast), Vercel Cron | 季節イベントを「そろそろ準備しなきゃ」のタイミングで届けるLINE Bot。27の季節イベントDB・毎朝9時自動通知・友だち追加ウェルカムメッセージ・HMAC-SHA256署名検証 |
 | ASCII Art Generator | Vite, React, TypeScript, Tailwind CSS, Canvas API, Vercel | 写真を高密度文字配列アートに変換。エッジ検出・カラーモード・解像度調整対応 |
-| 87 | RADAR CHART MAKER | https://paul13131313.github.io/radar-chart/ | 3〜8軸対応レーダーチャートメーカー。複数データ重ね合わせ比較・SVG/PNG書き出し・5種プリセット付き |
-| 88 | END ROLL MAKER | https://end-roll-maker-three.vercel.app | あなたの人生のエンドロールを映画風に作成・共有。キャスト登録・プロフィール編集・BGM付きCanvas再生・URL共有 |
-| 52 | MVVメーカー | https://mvv-maker.vercel.app | 質問に答えるだけでAIがMVV（ミッション・ビジョン・バリュー・パーパス）を生成。Pro/Premiumプラン準備中 |
+| RADAR CHART MAKER | Vite, React, TypeScript, Tailwind CSS, SVG, GitHub Pages | 3〜8軸対応レーダーチャートメーカー。複数データ重ね合わせ比較・SVG/PNG書き出し・5種プリセット付き |
+| END ROLL MAKER | Next.js 16, TypeScript, Tailwind CSS, Canvas 2D, pako, Web Audio API | 人生のエンドロールを映画風に作成・共有。キャスト登録・プロフィール編集・BGM付きCanvas再生・URL共有 |
+| MVVメーカー | Next.js, TypeScript, Tailwind CSS, Claude API, Vercel | 質問に答えるだけでAIがMVV（ミッション・ビジョン・バリュー・パーパス）を生成 |
+| アルティメットおトク診断 | Next.js 14, TypeScript, Tailwind CSS, Anthropic SDK (Claude Sonnet), Vercel | クレカ・投資・節税・通信費・マイルを20問で診断。AIがおトク偏差値・年間損失額・改善策を提案。条件分岐質問・禁止ルール付きプロンプトエンジニアリング |
