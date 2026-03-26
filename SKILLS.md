@@ -213,3 +213,4 @@
 | END ROLL MAKER | Next.js 16, TypeScript, Tailwind CSS, Canvas 2D, pako, Web Audio API | 人生のエンドロールを映画風に作成・共有。キャスト登録・プロフィール編集・BGM付きCanvas再生・URL共有 |
 | MVVメーカー | Next.js, TypeScript, Tailwind CSS, Claude API, Vercel | 質問に答えるだけでAIがMVV（ミッション・ビジョン・バリュー・パーパス）を生成 |
 | アルティメットおトク診断 | Next.js 14, TypeScript, Tailwind CSS, Anthropic SDK (Claude Sonnet), Vercel | クレカ・投資・節税・通信費・マイルを20問で診断。AIがおトク偏差値・年間損失額・改善策を提案。条件分岐質問・禁止ルール付きプロンプトエンジニアリング |
+| VTCL — Vertical Magazine | Next.js, TypeScript, Tailwind CSS, Vercel | 縦スクロール型Webマガジン vol.1 沖永良部。写真・文章・動画がシームレスに一体化 |
