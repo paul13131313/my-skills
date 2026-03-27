@@ -113,7 +113,8 @@
 - **Chatwork API** — タスク完了通知・THANKSカード連携（We TASK）
 - **Resend API** — トランザクションメール配信・独自ドメイン認証（生成新聞、台灣生成新聞）、Broadcasts/Audiences APIで一斉配信（業界紙つくーる）
 - **Vercel Cron Jobs** — 定時自動実行・CRON_SECRET認証（台灣生成新聞、日本の出版マップ）
-- **NDL OpenSearch API** — 国立国会図書館書誌データハーベスト・XMLパース（日本の出版マップ）
+- **NDL OpenSearch API** — 国立国会図書館書誌データハーベスト・XMLパース（日本の出版マップ、生成書店）
+- **NDL書影API** — 国立国会図書館の書影画像取得（生成書店）
 - **Together AI API** — 画像生成API（台灣生成新聞ヒーロー画像）
 
 ### 自動化 / CLI
@@ -217,3 +218,4 @@
 | アルティメットおトク診断 | Next.js 14, TypeScript, Tailwind CSS, Anthropic SDK (Claude Sonnet), Vercel | クレカ・投資・節税・通信費・マイルを20問で診断。AIがおトク偏差値・年間損失額・改善策を提案。条件分岐質問・禁止ルール付きプロンプトエンジニアリング |
 | VTCL — Vertical Magazine | Next.js, TypeScript, Tailwind CSS, Vercel | 縦スクロール型Webマガジン vol.1 沖永良部。写真・文章・動画がシームレスに一体化 |
 | 日本の出版マップ (JAPAN PUBLISHING MAP) | Next.js, TypeScript, Supabase, Vercel Cron, NDL OpenSearch API, Recharts | 国立国会図書館APIから11万冊超の書誌データをハーベストし、NDC分類×出版年月でリアルタイム可視化するダッシュボード。ツリーマップ・月別推移・出版社ランキング・新着書籍（書影つき） |
+| 生成書店 (SEISHO SHOTEN) | Next.js, TypeScript, Tailwind CSS, Anthropic Claude API, NDL OpenSearch API, NDL書影API, Supabase | どんな悩みにも3冊で答えるAI選書サービス。ユーザーの悩みを入力するとAIが最適な3冊を選書し、ストーリーライン付きで書影付きの棚として表示 |
