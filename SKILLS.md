@@ -85,6 +85,7 @@
 - **Canvas API（顔ランドマーク連動描画）** — 顔検出結果から目の位置に楕円を描画する画像加工（shirome）
 - **Google Fonts（Dela Gothic One + M PLUS Rounded 1c）** — コミック風日本語Webフォント活用（名刺バトラー）
 - **コミックスタイルUI設計** — コロコロコミック風POPデザイン・ネオンカラー・回転テキスト・CSS transform/box-shadow多重効果（名刺バトラー）
+- **Recharts** — Reactベースのデータビジュアライゼーション・ツリーマップ・折れ線グラフ・棒グラフ（日本の出版マップ）
 
 ### AI / 画像解析
 - **Claude Vision API** — 画像解析・名刺読み取り（名刺バトラー）
@@ -111,7 +112,8 @@
 - **YouTube Data API v3** — 動画検索・埋め込み可否チェック（PUNCH PUNCH PUNCH）
 - **Chatwork API** — タスク完了通知・THANKSカード連携（We TASK）
 - **Resend API** — トランザクションメール配信・独自ドメイン認証（生成新聞、台灣生成新聞）、Broadcasts/Audiences APIで一斉配信（業界紙つくーる）
-- **Vercel Cron Jobs** — 定時自動実行・CRON_SECRET認証（台灣生成新聞）
+- **Vercel Cron Jobs** — 定時自動実行・CRON_SECRET認証（台灣生成新聞、日本の出版マップ）
+- **NDL OpenSearch API** — 国立国会図書館書誌データハーベスト・XMLパース（日本の出版マップ）
 - **Together AI API** — 画像生成API（台灣生成新聞ヒーロー画像）
 
 ### 自動化 / CLI
@@ -214,3 +216,4 @@
 | MVVメーカー | Next.js, TypeScript, Tailwind CSS, Claude API, Vercel | 質問に答えるだけでAIがMVV（ミッション・ビジョン・バリュー・パーパス）を生成 |
 | アルティメットおトク診断 | Next.js 14, TypeScript, Tailwind CSS, Anthropic SDK (Claude Sonnet), Vercel | クレカ・投資・節税・通信費・マイルを20問で診断。AIがおトク偏差値・年間損失額・改善策を提案。条件分岐質問・禁止ルール付きプロンプトエンジニアリング |
 | VTCL — Vertical Magazine | Next.js, TypeScript, Tailwind CSS, Vercel | 縦スクロール型Webマガジン vol.1 沖永良部。写真・文章・動画がシームレスに一体化 |
+| 日本の出版マップ (JAPAN PUBLISHING MAP) | Next.js, TypeScript, Supabase, Vercel Cron, NDL OpenSearch API, Recharts | 国立国会図書館APIから11万冊超の書誌データをハーベストし、NDC分類×出版年月でリアルタイム可視化するダッシュボード。ツリーマップ・月別推移・出版社ランキング・新着書籍（書影つき） |
