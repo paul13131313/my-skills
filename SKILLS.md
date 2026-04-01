@@ -220,4 +220,4 @@
 | 日本の出版マップ (JAPAN PUBLISHING MAP) | Next.js, TypeScript, Supabase, Vercel Cron, NDL OpenSearch API, Recharts | 国立国会図書館APIから11万冊超の書誌データをハーベストし、NDC分類×出版年月でリアルタイム可視化するダッシュボード。ツリーマップ・月別推移・出版社ランキング・新着書籍（書影つき） |
 | 生成書店 (SEISHO SHOTEN) | Next.js, TypeScript, Tailwind CSS, Anthropic Claude API, NDL OpenSearch API, NDL書影API, Supabase | どんな悩みにも3冊で答えるAI選書サービス。ユーザーの悩みを入力するとAIが最適な3冊を選書し、ストーリーライン付きで書影付きの棚として表示 |
 | 無限桜 | Next.js, TypeScript, Tailwind CSS, Pexels API | 桜の写真と動画が無限に流れ続ける静謐な縦スクロールサイト |
-| 写ルン Lab. | HTML/CSS/JavaScript, Canvas API | 使い捨てカメラ風フィルターで写真を現像するWebアプリ。彩度・コントラスト・粒子・周辺光量を自由に調整 |
+| レトロカメラフィルター | HTML/CSS/JavaScript, Canvas API | レトロカメラ風フィルターで写真を現像するWebアプリ。彩度・コントラスト・粒子・周辺光量を自由に調整。 |
