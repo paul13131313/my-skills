@@ -179,6 +179,7 @@
 | テープ貼るやつ (tepla-studio) | React, TypeScript, Vite, Canvas API, Vercel | ブラウザで作るラベルシミュレーター。テープの色（白/黒、黄/黒、赤/白、青/白、緑/白、桃/黒、黒/白、透明/黒）・幅（6mm〜24mm）・書体（明朝・ゴシック）・字幅・向き・内枠を選択し、ボード上に自由に配置。ラベルのドラッグ移動、回転、インライン編集、個別PNG書き出し、ボード全体のPNG書き出しに対応 |
 | 走馬灯 SOMATO | Next.js, TypeScript, Tailwind CSS, Canvas API, MediaRecorder, Web Workers, AudioContext, Yuji Syuku | 写真が走馬灯のように駆け巡る動画を生成するWebアプリ。速度パターン3種（Sine/Burst/Random）、BGMミキシング、9:16縦型WebM出力。ブラウザ完結 |
 | END ROLL MAKER | Next.js 16, TypeScript, Tailwind CSS, Canvas 2D, pako (deflate), Web Audio API, Noto Serif JP / IM Fell English | 人生のエンドロールを映画風に作成・共有するWebアプリ。キャスト7セクション・プロフィール（経歴/転機/趣味/好きなもの/三言葉/感謝メッセージ）・BGM付きCanvas再生・deflate圧縮URL共有 |
+| RELIGION CHART | React, TypeScript, Vite, Tailwind CSS, GitHub Pages | 世界の8つの宗教を13の観点から比較するインタラクティブチャート |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
