@@ -86,6 +86,8 @@
 - **Google Fonts（Dela Gothic One + M PLUS Rounded 1c）** — コミック風日本語Webフォント活用（名刺バトラー）
 - **コミックスタイルUI設計** — コロコロコミック風POPデザイン・ネオンカラー・回転テキスト・CSS transform/box-shadow多重効果（名刺バトラー）
 - **Recharts** — Reactベースのデータビジュアライゼーション・ツリーマップ・折れ線グラフ・棒グラフ（日本の出版マップ）
+- **CesiumJS** — フォトリアル3D都市ビュー・Google Map Tiles API連携・3Dジオコーディング（mokutekichi）
+- **Google Map Tiles API (3D Tiles)** — Google Photorealistic 3D Tiles によるフォトリアル地図表示（mokutekichi）
 
 ### AI / 画像解析
 - **Claude Vision API** — 画像解析・名刺読み取り（名刺バトラー）
@@ -223,3 +225,4 @@
 | 無限桜 | Next.js, TypeScript, Tailwind CSS, Pexels API | 桜の写真と動画が無限に流れ続ける静謐な縦スクロールサイト |
 | レトロカメラフィルター | HTML/CSS/JavaScript, Canvas API | レトロカメラ風フィルターで写真を現像するWebアプリ。彩度・コントラスト・粒子・周辺光量を自由に調整。 |
 | domoji（動文字） | Vite, React, TypeScript, SVG Animation, KanjiVG | 書き順アニメーションで手書き風テキストを生成・シェアするWebアプリ。ひらがな・カタカナ166文字対応 |
+| mokutekichi（目的地という光景） | Vite, React, TypeScript, CesiumJS, Google Map Tiles API | 住所を入力すると光の柱が立つフォトリアル3D都市ビュージェネレーター |
