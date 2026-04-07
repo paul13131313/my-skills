@@ -222,3 +222,4 @@
 | 生成書店 (SEISHO SHOTEN) | Next.js, TypeScript, Tailwind CSS, Anthropic Claude API, NDL OpenSearch API, NDL書影API, Supabase | どんな悩みにも3冊で答えるAI選書サービス。ユーザーの悩みを入力するとAIが最適な3冊を選書し、ストーリーライン付きで書影付きの棚として表示 |
 | 無限桜 | Next.js, TypeScript, Tailwind CSS, Pexels API | 桜の写真と動画が無限に流れ続ける静謐な縦スクロールサイト |
 | レトロカメラフィルター | HTML/CSS/JavaScript, Canvas API | レトロカメラ風フィルターで写真を現像するWebアプリ。彩度・コントラスト・粒子・周辺光量を自由に調整。 |
+| domoji（動文字） | Vite, React, TypeScript, SVG Animation, KanjiVG | 書き順アニメーションで手書き風テキストを生成・シェアするWebアプリ。ひらがな・カタカナ166文字対応 |
