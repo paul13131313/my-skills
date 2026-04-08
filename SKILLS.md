@@ -226,3 +226,4 @@
 | レトロカメラフィルター | HTML/CSS/JavaScript, Canvas API | レトロカメラ風フィルターで写真を現像するWebアプリ。彩度・コントラスト・粒子・周辺光量を自由に調整。 |
 | domoji（動文字） | Vite, React, TypeScript, SVG Animation, KanjiVG | 書き順アニメーションで手書き風テキストを生成・シェアするWebアプリ。ひらがな・カタカナ166文字対応 |
 | mokutekichi（目的地という光景） | Vite, React, TypeScript, CesiumJS, Google Map Tiles API, Nominatim | 住所を検索すると3D都市ビューに光の柱が立ちマンションポエムが自動生成されるジェネレーター |
+| BLACK SQUARE | Next.js 14, TypeScript, Tailwind CSS, IndexedDB, @dnd-kit | 1:1の映像だけがpadding 0でびっしり並ぶ共同アート作品。動画・GIFをアップして並べ替え可能 |
