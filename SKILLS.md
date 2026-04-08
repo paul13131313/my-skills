@@ -54,6 +54,7 @@
 - **CSS position: absolute によるクレジット注釈オーバーレイ** — AI生成画像へのクレジット表記（台灣生成新聞）
 - **object-fit: cover による画像トリミング** — 黒帯除去・アスペクト比調整（台灣生成新聞）
 - **Canvas API + MediaRecorder（動画生成）** — ブラウザ上でCanvas描画→WebM動画エンコード・AudioContext BGMミキシング（走馬灯 SOMATO）
+- **MediaRecorder（動画トリミング・圧縮）** — captureStream()でHTMLVideoElementをキャプチャ→videoBitsPerSecond指定で1Mbps再エンコード・15秒自動トリミング（BLACK SQUARE）
 - **Canvas 2D エンドロール描画** — requestAnimationFrameによるスクロールアニメーション・テキスト配置・フェードイン/アウト（END ROLL MAKER）
 - **pako (zlib deflate/inflate)** — URLデータ圧縮・日本語テキストの効率的エンコーディング（END ROLL MAKER）
 - **Canvas APIベースのピクセル分析** — 画像内の黒帯検出・自動トリミング判定（台灣生成新聞）
