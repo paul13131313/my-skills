@@ -183,6 +183,7 @@
 | 走馬灯 SOMATO | Next.js, TypeScript, Tailwind CSS, Canvas API, MediaRecorder, Web Workers, AudioContext, Yuji Syuku | 写真が走馬灯のように駆け巡る動画を生成するWebアプリ。速度パターン3種（Sine/Burst/Random）、BGMミキシング、9:16縦型WebM出力。ブラウザ完結 |
 | END ROLL MAKER | Next.js 16, TypeScript, Tailwind CSS, Canvas 2D, pako (deflate), Web Audio API, Noto Serif JP / IM Fell English | 人生のエンドロールを映画風に作成・共有するWebアプリ。キャスト7セクション・プロフィール（経歴/転機/趣味/好きなもの/三言葉/感謝メッセージ）・BGM付きCanvas再生・deflate圧縮URL共有 |
 | RELIGION CHART | React, TypeScript, Vite, Tailwind CSS, GitHub Pages | 世界の8つの宗教を13の観点から比較するインタラクティブチャート |
+| ANIMAL AD AGENCY | HTML/CSS/JS, Intersection Observer, Video (MP4), Google Fonts, GitHub Pages | 動物がAI生成映像で商品を広告する架空のクリエイティブエージェンシーサイト。動画ギャラリー・料金表・タイムライン付き |
 
 ## 📝 運用ルール
 1. 新しい技術を使ったら「実務レベル」に追加
